@@ -35,5 +35,6 @@
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=Himesh-rm&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
   
+![Coding Animation](https://media.giphy.com/media/3o7TKtnuHOHHUjR38Y/giphy.gif)
 
 
