@@ -6,8 +6,6 @@
 - 🚀 Believer in consistent learning, discipline, and growth
 
 ## 👁️ Profile Counter:
-
-![Profile Views](https://komarev.com/ghpvc/?username=your-github-username&style=flat-square&color=blue)
 ![Profile Views](https://komarev.com/ghpvc/?username=Himesh-rm&label=Profile%20views&color=0e75b6&style=flat&base=0)
 
 ## 🌐 Socials:
