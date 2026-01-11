@@ -16,15 +16,3 @@ Improving my C++ programming skills<br>Practicing Data Structures & Algorithms<b
   ![Profile Views](https://komarev.com/ghpvc/?username=Himesh-rm&label=Profile%20views&color=0e75b6&style=flat&base=0)
 
 
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=Himesh-rm&limit=5&theme=dark&combine_all_yearly_contributions=true)
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Himesh-rm&label=Profile%20views&color=0e75b6&style=flat&base=0" />
-</p>
-
-
-
----
-
-
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
