@@ -1,5 +1,10 @@
 # 💫 About Me:
-Improving my C++ programming skills<br>Practicing Data Structures & Algorithms<br>Beginner-friendly C++ projects.
+
+- 🎓 Student with a strong interest in **C++ and core programming concepts**
+- 📊 On a focused journey toward becoming a **Data Scientist**
+- 🧩 Enjoy turning problems into logical, efficient solutions
+- 🚀 Believer in consistent learning, discipline, and growth
+
 
   ![Profile Views](https://komarev.com/ghpvc/?username=Himesh-rm&label=Profile%20views&color=0e75b6&style=flat&base=0)
 
