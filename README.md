@@ -4,7 +4,8 @@ Improving my C++ programming skills<br>Practicing Data Structures & Algorithms<b
   ![Profile Views](https://komarev.com/ghpvc/?username=Himesh-rm&label=Profile%20views&color=0e75b6&style=flat&base=0)
 
 ## 🌐 Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/himesh______16) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/Himesh Rupchandani) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:rupchandanihimesh69@gmail.com) 
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/himesh______16) [LinkedIn](https://www.linkedin.com/in/himesh-rupchandani-1049bb377/)
+[![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:rupchandanihimesh69@gmail.com) 
 
 # 💻 Tech Stack:
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
