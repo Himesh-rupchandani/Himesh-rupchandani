@@ -23,6 +23,12 @@
 ![](https://github-readme-stats.vercel.app/api?username=Himesh-rupchandani&theme=dark&hide_border=false)
 ![](https://nirzak-streak-stats.vercel.app/?user=Himesh-rupchandani&theme=dark&hide_border=false)
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=Himesh-rupchandani&theme=dark&hide_border=false&layout=compact)
+## GitHub Stats Test
+
+![Stats](https://github-readme-stats.vercel.app/api?username=Himesh-rupchandani)
+
+![Streak](https://nirzak-streak-stats.vercel.app/?user=Himesh-rupchandani)
+
 
   
 # 💻 Tech Stack:
