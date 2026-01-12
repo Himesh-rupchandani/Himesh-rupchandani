@@ -21,9 +21,9 @@
 
 ## 📊 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Himesh-rupchandani&show_icons=true&theme=dark&v=1)  
-![GitHub Streak](https://nirzak-streak-stats.vercel.app/?user=Himesh-rupchandani&theme=dark&v=1)  
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Himesh-rupchandani&layout=compact&theme=dark&v=1)  
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Himesh-rupchandani&show_icons=true&theme=dark&v=1)
+![GitHub Streak](https://nirzak-streak-stats.vercel.app/?user=Himesh-rupchandani&theme=dark&v=1)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Himesh-rupchandani&layout=compact&theme=dark&v=1)
 
 
 # 💻 Tech Stack:
