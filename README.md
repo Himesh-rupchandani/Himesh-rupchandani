@@ -19,7 +19,7 @@
 ![Profile Views](https://komarev.com/ghpvc/?username=Himesh-rupchandani&label=Profile%20views&color=0e75b6&style=flat&base=0)
 
 # 💻 Tech Stack:
-### Languages and Tools:
+
 
 <p align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C" width="40" height="40"/>
