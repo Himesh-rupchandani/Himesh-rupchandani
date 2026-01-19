@@ -25,6 +25,7 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" width="40" height="40"/>
 </p>
+![LeetCode Stats](https://leetcard.jacoblin.cool/Himesh-rupchandani?theme=dark&font=Karma)
 
 # 📊 GitHub Stats:
 ![](https://github-readme-stats.vercel.app/api?username=Himesh-rupchandani&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
