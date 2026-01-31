@@ -1,4 +1,4 @@
-  ## 💫 About Me:
+  # 💫 About Me:
 
 - 🎓 Student with a strong interest in **C++ and core programming concepts**
 - 📊 On a focused journey toward becoming a **Data Scientist**
