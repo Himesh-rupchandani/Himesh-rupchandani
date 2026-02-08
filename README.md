@@ -1,9 +1,11 @@
  # 💫 About Me:
 
-- 🎓 Student with a strong interest in **C++ and core programming concepts**
-- 📊 On a focused journey toward becoming a **Data Scientist**
-- 🧩 Enjoy turning problems into logical, efficient solutions
-- 🚀 Believer in consistent learning, discipline, and growth
+👋 Hi, I'm Himesh!
+
+🎓 CSE (AI & Data Science) student with a strong foundation in C++ and core programming concepts.  
+📊 Actively working toward becoming a Data Scientist, with a focus on problem-solving, logic, and efficient code.  
+💡 I enjoy turning complex problems into simple, optimized solutions.  
+🚀 Believe in consistent learning, discipline, and long-term growth.
 
 
 ## 🌐 Socials:
