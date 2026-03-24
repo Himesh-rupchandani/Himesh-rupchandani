@@ -38,11 +38,9 @@
 
 # 📊 GitHub Stats:
 
-<p align="center">
-  
-  <img src="https://nirzak-streak-stats.vercel.app/?user=Himesh-rupchandani&theme=dark&hide_border=false" />
-  <br/>
- 
+<img src="https://github-readme-stats.vercel.app/api?username=Himesh-rupchandani&show_icons=true&theme=dark" />
+<br/>
+<img src="https://streak-stats.demolab.com/?user=Himesh-rupchandani&theme=dark" />
 
 
 
