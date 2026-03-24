@@ -38,9 +38,11 @@
 
 # 📊 GitHub Stats:
 
-<img src="https://github-readme-stats.vercel.app/api?username=Himesh-rupchandani&show_icons=true&theme=dark" />
-<br/>
-<img src="https://streak-stats.demolab.com/?user=Himesh-rupchandani&theme=dark" />
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Himesh-rupchandani&show_icons=true&theme=dark" />
+  <br/>
+  <img src="https://streak-stats.demolab.com/?user=Himesh-rupchandani&theme=dark" />
+</div>
 
 
 
