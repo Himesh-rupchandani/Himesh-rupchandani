@@ -20,27 +20,26 @@
 ## 👁️ Profile Counter:
 ![Profile Views](https://komarev.com/ghpvc/?username=Himesh-rupchandani&label=Profile%20views&color=0e75b6&style=flat&base=0)
 
+
 # 💻 Tech Stack:
-
-
 <p align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" width="40" height="40"/>
 </p>
 
-## 🧠 LeetCode Stats:
 
+## 🧠 LeetCode Stats:
 <p align="center">
   <a href="https://leetcode.com/Himesh-rupchandani/">
     <img src="https://leetcard.jacoblin.cool/Himesh-rupchandani?theme=dark&font=Karma" />
   </a>
 </p>
 
-# 📊 GitHub Stats:
-<br>
-  <img src="https://streak-stats.demolab.com/?user=Himesh-rupchandani&theme=dark" />
-</div>
 
+# 📊 GitHub Stats:
+<div align="center">
+  <img src="https://streak-stats.demolab.com/?user=Himesh-rupchandani&theme=dark&cache_seconds=0" />
+</div>
 
 
 
