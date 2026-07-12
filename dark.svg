@@ -400,8 +400,6 @@
             <tspan x="28" dy="13">██║  ██║██║██║ ╚═╝ ██║███████╗███████║██║  ██║</tspan>
             <tspan x="28" dy="13">╚═╝  ╚═╝╚═╝╚═╝     ╚═╝╚══════╝╚══════╝╚═╝  ╚═╝</tspan>
 
-
-
             <tspan x="28" dy="22" font-size="9" fill="url(#g-ascii)">·────────────────────────────────────────────·</tspan>
             <tspan x="28" dy="13" font-size="9">│  ⌨  Data Scientist  &amp;  AI Enthusiast  │</tspan>
             <tspan x="28" dy="13" font-size="9">│  ◈  Building the future, one commit at a time │</tspan>
@@ -624,7 +622,7 @@
           <animate attributeName="opacity"
             values="0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0"
             dur="20s" repeatCount="indefinite"/>
-          Data Sceintist ▌
+          Data Scientist▌
         </tspan>
 
         <!-- Role 3 -->
@@ -640,8 +638,18 @@
           <animate attributeName="opacity"
             values="0;0;0;0;0;0;0;0;0;0;0;0;1;1;0;0;0;0;0;0;0;0"
             dur="20s" repeatCount="indefinite"/>
-          Python Devloper ▌
+          UI Engineer ▌
         </tspan>
+
+        <!-- Role 5 -->
+        <tspan fill="#ec4899" opacity="0">
+          <animate attributeName="opacity"
+            values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;0;0;0;0"
+            dur="20s" repeatCount="indefinite"/>
+          AI Enthusiast ▌
+        </tspan>
+
+      </text>
 
       <!-- Cursor blink after role -->
       <rect x="480" y="182" width="7" height="16" rx="1" fill="#22d3ee" opacity="0">
@@ -698,7 +706,7 @@
         <tspan fill="#475569">✉️  </tspan>
         <tspan fill="#64748b" letter-spacing="0.5">Email      </tspan>
         <tspan fill="#334155">·  </tspan>
-        <tspan fill="#22d3ee" letter-spacing="0.3">rupchandanihimesh9@gmail.com</tspan>
+        <tspan fill="#22d3ee" letter-spacing="0.3">himesh.rupchandani@gmail.com</tspan>
       </text>
 
       <!-- Separator -->
@@ -726,7 +734,7 @@
           fill="url(#g-pill-cyan)" stroke="#22d3ee" stroke-width="1" stroke-opacity="0.5"/>
         <text x="514" y="413" text-anchor="middle"
           font-family="'SF Mono','Fira Code',monospace"
-          font-size="11" font-weight="600" fill="#22d3ee">⚛ C++</text>
+          font-size="11" font-weight="600" fill="#22d3ee">⚛ React</text>
       </g>
 
       <!-- Next.js -->
@@ -736,38 +744,38 @@
           fill="rgba(248,250,252,0.06)" stroke="rgba(248,250,252,0.2)" stroke-width="1"/>
         <text x="602" y="413" text-anchor="middle"
           font-family="'SF Mono','Fira Code',monospace"
-          font-size="11" font-weight="600" fill="#e2e8f0">▲ Leetcode</text>
+          font-size="11" font-weight="600" fill="#e2e8f0">▲ Next.js</text>
       </g>
 
       <!-- TypeScript -->
-      <!-- <g opacity="0">
+      <g opacity="0">
         <animate attributeName="opacity" values="0;1" begin="2.9s" dur="0.25s" fill="freeze"/>
         <rect x="651" y="395" width="102" height="27" rx="13.5"
           fill="url(#g-pill-cyan)" stroke="#3b82f6" stroke-width="1" stroke-opacity="0.5"/>
         <text x="702" y="413" text-anchor="middle"
           font-family="'SF Mono','Fira Code',monospace"
           font-size="11" font-weight="600" fill="#60a5fa">TS TypeScript</text>
-      </g> -->
+      </g>
 
       <!-- Node.js -->
-      <!-- <g opacity="0">
+      <g opacity="0">
         <animate attributeName="opacity" values="0;1" begin="3.05s" dur="0.25s" fill="freeze"/>
         <rect x="761" y="395" width="82" height="27" rx="13.5"
           fill="url(#g-pill-green)" stroke="#10b981" stroke-width="1" stroke-opacity="0.5"/>
         <text x="802" y="413" text-anchor="middle"
           font-family="'SF Mono','Fira Code',monospace"
           font-size="11" font-weight="600" fill="#10b981">⬡ Node.js</text>
-      </g> -->
+      </g>
 
       <!-- Tailwind -->
-      <!-- <g opacity="0">
+      <g opacity="0">
         <animate attributeName="opacity" values="0;1" begin="3.2s" dur="0.25s" fill="freeze"/>
         <rect x="851" y="395" width="88" height="27" rx="13.5"
           fill="url(#g-pill-cyan)" stroke="#06b6d4" stroke-width="1" stroke-opacity="0.5"/>
         <text x="895" y="413" text-anchor="middle"
           font-family="'SF Mono','Fira Code',monospace"
           font-size="11" font-weight="600" fill="#06b6d4">🌊 Tailwind</text>
-      </g> -->
+      </g>
 
       <!-- Python -->
       <g opacity="0">
@@ -782,24 +790,24 @@
       <!-- ── ROW 2 ── -->
 
       <!-- Docker -->
-      <!-- <g opacity="0">
+      <g opacity="0">
         <animate attributeName="opacity" values="0;1" begin="3.5s" dur="0.25s" fill="freeze"/>
         <rect x="475" y="432" width="78" height="27" rx="13.5"
           fill="url(#g-pill-cyan)" stroke="#22d3ee" stroke-width="1" stroke-opacity="0.4"/>
         <text x="514" y="450" text-anchor="middle"
           font-family="'SF Mono','Fira Code',monospace"
           font-size="11" font-weight="600" fill="#22d3ee">🐳 Docker</text>
-      </g> -->
+      </g>
 
       <!-- Postgres -->
-      <!-- <g opacity="0">
+      <g opacity="0">
         <animate attributeName="opacity" values="0;1" begin="3.6s" dur="0.25s" fill="freeze"/>
         <rect x="561" y="432" width="92" height="27" rx="13.5"
           fill="url(#g-pill-green)" stroke="#10b981" stroke-width="1" stroke-opacity="0.4"/>
         <text x="607" y="450" text-anchor="middle"
           font-family="'SF Mono','Fira Code',monospace"
           font-size="11" font-weight="600" fill="#10b981">🐘 Postgres</text>
-      </g> -->
+      </g>
 
       <!-- AWS -->
       <g opacity="0">
@@ -828,53 +836,53 @@
           fill="url(#g-pill-purple)" stroke="#a855f7" stroke-width="1" stroke-opacity="0.4"/>
         <text x="833" y="450" text-anchor="middle"
           font-family="'SF Mono','Fira Code',monospace"
-          font-size="11" font-weight="600" fill="#a855f7">✦ SQL</text>
+          font-size="11" font-weight="600" fill="#a855f7">✦ Figma</text>
       </g>
 
       <!-- MongoDB -->
-      <!-- <g opacity="0">
+      <g opacity="0">
         <animate attributeName="opacity" values="0;1" begin="4s" dur="0.25s" fill="freeze"/>
         <rect x="877" y="432" width="90" height="27" rx="13.5"
           fill="url(#g-pill-green)" stroke="#10b981" stroke-width="1" stroke-opacity="0.4"/>
         <text x="922" y="450" text-anchor="middle"
           font-family="'SF Mono','Fira Code',monospace"
           font-size="11" font-weight="600" fill="#10b981">🌿 MongoDB</text>
-      </g> -->
+      </g>
 
       <!-- GraphQL -->
-      <!-- <g opacity="0">
+      <g opacity="0">
         <animate attributeName="opacity" values="0;1" begin="4.1s" dur="0.25s" fill="freeze"/>
         <rect x="975" y="432" width="86" height="27" rx="13.5"
           fill="url(#g-pill-pink)" stroke="#ec4899" stroke-width="1" stroke-opacity="0.4"/>
         <text x="1018" y="450" text-anchor="middle"
           font-family="'SF Mono','Fira Code',monospace"
           font-size="11" font-weight="600" fill="#ec4899">◈ GraphQL</text>
-      </g> -->
+      </g>
 
       <!-- ── ROW 3 ── -->
 
       <!-- Redis -->
-      <!-- <g opacity="0">
+      <g opacity="0">
         <animate attributeName="opacity" values="0;1" begin="4.2s" dur="0.25s" fill="freeze"/>
         <rect x="475" y="469" width="66" height="27" rx="13.5"
           fill="url(#g-pill-red)" stroke="#ef4444" stroke-width="1" stroke-opacity="0.35"/>
         <text x="508" y="487" text-anchor="middle"
           font-family="'SF Mono','Fira Code',monospace"
           font-size="11" font-weight="600" fill="#ef4444">⚡ Redis</text>
-      </g> -->
+      </g>
 
       <!-- Kubernetes -->
-      <!-- <g opacity="0">
+      <g opacity="0">
         <animate attributeName="opacity" values="0;1" begin="4.3s" dur="0.25s" fill="freeze"/>
         <rect x="549" y="469" width="102" height="27" rx="13.5"
           fill="url(#g-pill-cyan)" stroke="#22d3ee" stroke-width="1" stroke-opacity="0.35"/>
         <text x="600" y="487" text-anchor="middle"
           font-family="'SF Mono','Fira Code',monospace"
           font-size="11" font-weight="600" fill="#22d3ee">☸ Kubernetes</text>
-      </g> -->
+      </g>
 
       <!-- Linux -->
-      <!-- <g opacity="0">
+      <g opacity="0">
         <animate attributeName="opacity" values="0;1" begin="4.4s" dur="0.25s" fill="freeze"/>
         <rect x="659" y="469" width="70" height="27" rx="13.5"
           fill="rgba(248,250,252,0.06)" stroke="rgba(248,250,252,0.18)" stroke-width="1"/>
@@ -883,7 +891,7 @@
           font-size="11" font-weight="600" fill="#94a3b8">🐧 Linux</text>
       </g>
 
-    </g> -->
+    </g>
 
     <!-- ─── SOCIAL LINKS ─── -->
     <g mask="url(#m-social)">
@@ -925,14 +933,14 @@
       </g>
 
       <!-- Twitter/X button -->
-      <!-- <g opacity="0">
+      <g opacity="0">
         <animate attributeName="opacity" values="0;1" begin="3.6s" dur="0.3s" fill="freeze"/>
         <rect x="751" y="536" width="128" height="34" rx="10"
           fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
         <text x="815" y="557" text-anchor="middle"
           font-family="'SF Mono','Fira Code',monospace"
           font-size="12" font-weight="500" fill="#e2e8f0">𝕏  Twitter</text>
-      </g> -->
+      </g>
 
       <!-- Portfolio button -->
       <g opacity="0">
