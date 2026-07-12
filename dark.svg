@@ -393,7 +393,7 @@
           <text font-family="'Courier New',monospace" font-size="9.8"
             fill="url(#g-ascii)" font-weight="bold" letter-spacing="0.8">
 
-            <tspan x="28" dy="0" y="118">██╗  ██╗██╗███╗   ███╗███████╗███████╗██╗  ██╗</tspan>
+            <tspan x="28" dy="0" y="118">██╗  ██╗██╗███╗   ███╗███████╗████   ███╗██╗   ██╗</tspan>
             <tspan x="28" dy="13">██║  ██║██║████╗ ████║██╔════╝██╔════╝██║  ██║</tspan>
             <tspan x="28" dy="13">███████║██║██╔████╔██║█████╗  ███████╗███████║</tspan>
             <tspan x="28" dy="13">██╔══██║██║██║╚██╔╝██║██╔══╝  ╚════██║██╔══██║</tspan>
@@ -499,7 +499,7 @@
       <text x="228" y="533" text-anchor="middle"
         font-family="'SF Mono','Fira Code',monospace"
         font-size="10" fill="#64748b" letter-spacing="1.5">
-        🚀  Coding since 2021
+        🚀  Coding since 2025
       </text>
     </g>
 
@@ -614,7 +614,7 @@
           <animate attributeName="opacity"
             values="1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1"
             dur="20s" repeatCount="indefinite"/>
-          Frontend Engineer ▌
+          Data Engineer ▌
         </tspan>
 
         <!-- Role 2 -->
@@ -638,7 +638,7 @@
           <animate attributeName="opacity"
             values="0;0;0;0;0;0;0;0;0;0;0;0;1;1;0;0;0;0;0;0;0;0"
             dur="20s" repeatCount="indefinite"/>
-          UI Engineer ▌
+          Python Devloper ▌
         </tspan>
 
         <!-- Role 5 -->
@@ -706,7 +706,7 @@
         <tspan fill="#475569">✉️  </tspan>
         <tspan fill="#64748b" letter-spacing="0.5">Email      </tspan>
         <tspan fill="#334155">·  </tspan>
-        <tspan fill="#22d3ee" letter-spacing="0.3">himesh.rupchandani@gmail.com</tspan>
+        <tspan fill="#22d3ee" letter-spacing="0.3">rupchandanihimesh69@gmail.com</tspan>
       </text>
 
       <!-- Separator -->
@@ -1018,3 +1018,4 @@
   </g>
 
 </svg>
+
