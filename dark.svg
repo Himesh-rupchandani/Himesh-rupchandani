@@ -1,1 +1,1027 @@
+<svg width="1180" height="610" viewBox="0 0 1180 610"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
 
+  <defs>
+
+    <!-- ═══ CLIP PATHS ═══ -->
+    <clipPath id="main-clip">
+      <rect width="1180" height="610" rx="18"/>
+    </clipPath>
+    <clipPath id="left-clip">
+      <rect x="18" y="18" width="420" height="574" rx="14"/>
+    </clipPath>
+    <clipPath id="right-clip">
+      <rect x="450" y="18" width="712" height="574" rx="14"/>
+    </clipPath>
+
+    <!-- ═══ GRADIENTS ═══ -->
+
+    <!-- Background radial glows -->
+    <radialGradient id="g-bg1" cx="15%" cy="25%" r="45%">
+      <stop offset="0%" stop-color="#3b0764" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#030712" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="g-bg2" cx="85%" cy="75%" r="45%">
+      <stop offset="0%" stop-color="#064e3b" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#030712" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="g-bg3" cx="75%" cy="15%" r="40%">
+      <stop offset="0%" stop-color="#1e3a8a" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#030712" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- ASCII gradient -->
+    <linearGradient id="g-ascii" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="50%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#10b981"/>
+      <animateTransform attributeName="gradientTransform"
+        type="rotate" values="0 0.5 0.5;360 0.5 0.5"
+        dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <!-- Accent gradient horizontal -->
+    <linearGradient id="g-accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="50%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+
+    <!-- Accent gradient vertical -->
+    <linearGradient id="g-accent-v" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+
+    <!-- Left panel gradient -->
+    <linearGradient id="g-left-panel" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#0a0f1e"/>
+    </linearGradient>
+
+    <!-- Right panel gradient -->
+    <linearGradient id="g-right-panel" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#080d1a"/>
+    </linearGradient>
+
+    <!-- Glass top reflection -->
+    <linearGradient id="g-glass" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Panel border gradient -->
+    <linearGradient id="g-border-left" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#22d3ee" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0.8"/>
+    </linearGradient>
+
+    <linearGradient id="g-border-right" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#7c3aed" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0.6"/>
+    </linearGradient>
+
+    <!-- Typing cursor gradient -->
+    <linearGradient id="g-cursor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+
+    <!-- Skills pill gradients -->
+    <linearGradient id="g-pill-cyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#0ea5e9" stop-opacity="0.1"/>
+    </linearGradient>
+    <linearGradient id="g-pill-purple" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0.1"/>
+    </linearGradient>
+    <linearGradient id="g-pill-green" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#059669" stop-opacity="0.1"/>
+    </linearGradient>
+    <linearGradient id="g-pill-amber" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#d97706" stop-opacity="0.1"/>
+    </linearGradient>
+    <linearGradient id="g-pill-red" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ef4444" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#dc2626" stop-opacity="0.1"/>
+    </linearGradient>
+    <linearGradient id="g-pill-pink" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ec4899" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#db2777" stop-opacity="0.1"/>
+    </linearGradient>
+
+    <!-- Vignette -->
+    <radialGradient id="g-vignette" cx="50%" cy="50%" r="70%">
+      <stop offset="60%" stop-color="#030712" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#030712" stop-opacity="0.5"/>
+    </radialGradient>
+
+    <!-- ═══ FILTERS ═══ -->
+
+    <!-- Glow blur for ASCII -->
+    <filter id="f-ascii-glow" x="-5%" y="-5%" width="110%" height="110%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Panel outer glow -->
+    <filter id="f-panel-glow" x="-8%" y="-8%" width="116%" height="116%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Soft text glow -->
+    <filter id="f-text-glow" x="-10%" y="-20%" width="120%" height="140%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Subtle glow for pills -->
+    <filter id="f-pill-glow" x="-5%" y="-15%" width="110%" height="130%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- ═══ MASKS ═══ -->
+
+    <!-- ASCII line-by-line reveal -->
+    <mask id="m-ascii">
+      <rect x="0" y="80" width="440" height="0" fill="white">
+        <animate attributeName="height"
+          values="0;440" dur="2.5s"
+          fill="freeze" calcMode="linear"/>
+      </rect>
+    </mask>
+
+    <!-- Greeting reveal -->
+    <mask id="m-greet">
+      <rect x="440" y="70" width="750" height="0" fill="white">
+        <animate attributeName="height"
+          values="0;120" begin="0.3s" dur="0.8s" fill="freeze"/>
+      </rect>
+    </mask>
+
+    <!-- Role reveal -->
+    <mask id="m-role">
+      <rect x="440" y="185" width="750" height="0" fill="white">
+        <animate attributeName="height"
+          values="0;35" begin="1s" dur="0.5s" fill="freeze"/>
+      </rect>
+    </mask>
+
+    <!-- Info reveal -->
+    <mask id="m-info">
+      <rect x="440" y="220" width="750" height="0" fill="white">
+        <animate attributeName="height"
+          values="0;175" begin="1.5s" dur="1s" fill="freeze"/>
+      </rect>
+    </mask>
+
+    <!-- Skills reveal -->
+    <mask id="m-skills">
+      <rect x="440" y="390" width="750" height="0" fill="white">
+        <animate attributeName="height"
+          values="0;120" begin="2.5s" dur="0.8s" fill="freeze"/>
+      </rect>
+    </mask>
+
+    <!-- Social reveal -->
+    <mask id="m-social">
+      <rect x="440" y="505" width="750" height="0" fill="white">
+        <animate attributeName="height"
+          values="0;100" begin="3.2s" dur="0.6s" fill="freeze"/>
+      </rect>
+    </mask>
+
+  </defs>
+
+  <!-- ╔═══════════════════════════════════════════════════════════╗ -->
+  <!-- ║  CANVAS                                                   ║ -->
+  <!-- ╚═══════════════════════════════════════════════════════════╝ -->
+  <g clip-path="url(#main-clip)">
+
+    <!-- Base fill -->
+    <rect width="1180" height="610" fill="#030712"/>
+
+    <!-- Animated background glows -->
+    <ellipse cx="180" cy="150" rx="380" ry="300" fill="#3b0764" opacity="0.35">
+      <animate attributeName="opacity" values="0.35;0.55;0.35" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="rx" values="380;420;380" dur="6s" repeatCount="indefinite"/>
+    </ellipse>
+
+    <ellipse cx="1000" cy="460" rx="350" ry="280" fill="#064e3b" opacity="0.3">
+      <animate attributeName="opacity" values="0.3;0.5;0.3" dur="7s" begin="1s" repeatCount="indefinite"/>
+      <animate attributeName="rx" values="350;390;350" dur="7s" begin="1s" repeatCount="indefinite"/>
+    </ellipse>
+
+    <ellipse cx="900" cy="120" rx="300" ry="220" fill="#1e3a8a" opacity="0.25">
+      <animate attributeName="opacity" values="0.25;0.4;0.25" dur="9s" begin="2s" repeatCount="indefinite"/>
+    </ellipse>
+
+    <ellipse cx="100" cy="500" rx="250" ry="180" fill="#4c1d95" opacity="0.2">
+      <animate attributeName="opacity" values="0.2;0.35;0.2" dur="8s" begin="3s" repeatCount="indefinite"/>
+    </ellipse>
+
+    <!-- ═══ FLOATING PARTICLES ═══ -->
+    <g font-size="0">
+      <!-- p1 -->
+      <circle r="2" fill="#22d3ee" opacity="0">
+        <animateMotion path="M 80 580 Q 140 400 90 200 Q 60 100 120 20"
+          dur="14s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0.7;0.7;0" dur="14s" repeatCount="indefinite"/>
+        <animate attributeName="r" values="1.5;2.5;1.5" dur="14s" repeatCount="indefinite"/>
+      </circle>
+      <!-- p2 -->
+      <circle r="1.5" fill="#a855f7" opacity="0">
+        <animateMotion path="M 280 600 Q 220 480 260 300 Q 290 150 240 30"
+          dur="11s" begin="2s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0.6;0.6;0" dur="11s" begin="2s" repeatCount="indefinite"/>
+      </circle>
+      <!-- p3 -->
+      <circle r="2" fill="#10b981" opacity="0">
+        <animateMotion path="M 580 610 Q 640 450 600 280 Q 570 130 620 10"
+          dur="13s" begin="4s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0.5;0.5;0" dur="13s" begin="4s" repeatCount="indefinite"/>
+      </circle>
+      <!-- p4 -->
+      <circle r="1.5" fill="#22d3ee" opacity="0">
+        <animateMotion path="M 870 590 Q 820 430 860 250 Q 890 100 840 10"
+          dur="12s" begin="1s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0.6;0.6;0" dur="12s" begin="1s" repeatCount="indefinite"/>
+      </circle>
+      <!-- p5 -->
+      <circle r="2.5" fill="#a855f7" opacity="0">
+        <animateMotion path="M 1100 570 Q 1060 400 1090 220 Q 1110 80 1060 0"
+          dur="15s" begin="5s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0.4;0.4;0" dur="15s" begin="5s" repeatCount="indefinite"/>
+      </circle>
+      <!-- p6 -->
+      <circle r="1" fill="#10b981" opacity="0">
+        <animateMotion path="M 440 600 Q 400 450 430 270 Q 460 110 410 20"
+          dur="10s" begin="7s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0.8;0.8;0" dur="10s" begin="7s" repeatCount="indefinite"/>
+      </circle>
+      <!-- p7 -->
+      <circle r="1.5" fill="#22d3ee" opacity="0">
+        <animateMotion path="M 720 590 Q 760 420 730 240 Q 700 90 750 5"
+          dur="16s" begin="3s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0.5;0.5;0" dur="16s" begin="3s" repeatCount="indefinite"/>
+      </circle>
+      <!-- p8 -->
+      <circle r="2" fill="#f59e0b" opacity="0">
+        <animateMotion path="M 1000 600 Q 1040 440 1010 260 Q 980 100 1030 15"
+          dur="12s" begin="6s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0.3;0.3;0" dur="12s" begin="6s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <!-- Moving scanline across full canvas -->
+    <rect x="0" y="0" width="1180" height="2" fill="#22d3ee" opacity="0.06">
+      <animateTransform attributeName="transform" type="translate"
+        additive="sum" values="0,-10;0,620;0,620" dur="7s" repeatCount="indefinite"
+        calcMode="linear"/>
+    </rect>
+    <rect x="0" y="0" width="1180" height="1" fill="#7c3aed" opacity="0.04">
+      <animateTransform attributeName="transform" type="translate"
+        additive="sum" values="0,-10;0,620;0,620" dur="7s" begin="3.5s"
+        repeatCount="indefinite" calcMode="linear"/>
+    </rect>
+
+    <!-- ╔═══════════════════════════════════════════════════════╗ -->
+    <!-- ║  LEFT PANEL                                           ║ -->
+    <!-- ╚═══════════════════════════════════════════════════════╝ -->
+
+    <!-- Panel glow halo -->
+    <rect x="14" y="14" width="428" height="582" rx="18"
+      fill="none" stroke="#7c3aed" stroke-width="1.5" opacity="0.3"
+      filter="url(#f-panel-glow)">
+      <animate attributeName="opacity" values="0.3;0.7;0.3" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="stroke" values="#7c3aed;#22d3ee;#7c3aed" dur="6s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Panel base -->
+    <rect x="18" y="18" width="420" height="574" rx="14"
+      fill="url(#g-left-panel)"/>
+
+    <!-- Glass reflection top -->
+    <rect x="18" y="18" width="420" height="200" rx="14"
+      fill="url(#g-glass)"/>
+
+    <!-- Panel border -->
+    <rect x="18" y="18" width="420" height="574" rx="14"
+      fill="none" stroke="url(#g-border-left)" stroke-width="1.5"/>
+
+    <!-- Inner subtle border -->
+    <rect x="19.5" y="19.5" width="417" height="571" rx="13"
+      fill="none" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+
+    <!-- ─── Terminal Header ─── -->
+    <!-- Traffic lights -->
+    <circle cx="48" cy="46" r="6" fill="#ff5f57"/>
+    <circle cx="48" cy="46" r="6" fill="none" stroke="#e0443e" stroke-width="0.5"/>
+    <circle cx="70" cy="46" r="6" fill="#febc2e"/>
+    <circle cx="70" cy="46" r="6" fill="none" stroke="#d4a017" stroke-width="0.5"/>
+    <circle cx="92" cy="46" r="6" fill="#28c840"/>
+    <circle cx="92" cy="46" r="6" fill="none" stroke="#1aab29" stroke-width="0.5"/>
+
+    <!-- Animated traffic light pulse -->
+    <circle cx="48" cy="46" r="6" fill="#ff5f57" opacity="0">
+      <animate attributeName="opacity" values="0;0.4;0" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="6;10;6" dur="4s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Header title -->
+    <text x="228" y="51" text-anchor="middle"
+      font-family="'SF Mono','Fira Code',monospace"
+      font-size="11" fill="#475569" letter-spacing="1.5">
+      ascii-portrait.sh
+    </text>
+
+    <!-- Header separator -->
+    <line x1="18" y1="66" x2="438" y2="66"
+      stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+
+    <!-- Animated separator glow -->
+    <line x1="18" y1="66" x2="438" y2="66"
+      stroke="url(#g-accent)" stroke-width="0.5" opacity="0.4">
+      <animate attributeName="opacity" values="0.4;0.8;0.4" dur="3s" repeatCount="indefinite"/>
+    </line>
+
+    <!-- ─── Prompt ─── -->
+    <text x="30" y="90"
+      font-family="'SF Mono','Fira Code',monospace"
+      font-size="10" fill="#10b981" letter-spacing="0.5">
+      <tspan fill="#10b981">$</tspan>
+      <tspan fill="#64748b" dx="4">./render --portrait himesh</tspan>
+    </text>
+
+    <!-- ─── ASCII ART with gradient + glow + float ─── -->
+    <g mask="url(#m-ascii)">
+      <g filter="url(#f-ascii-glow)">
+
+        <!-- Float animation wrapper -->
+        <g>
+          <animateTransform attributeName="transform" type="translate"
+            values="0,0;0,-7;0,0" dur="5s" repeatCount="indefinite"
+            calcMode="spline"
+            keySplines="0.37 0 0.63 1;0.37 0 0.63 1"
+            keyTimes="0;0.5;1"/>
+
+          <!-- ASCII lines — gradient colored -->
+          <text font-family="'Courier New',monospace" font-size="9.8"
+            fill="url(#g-ascii)" font-weight="bold" letter-spacing="0.8">
+
+            <tspan x="28" dy="0" y="118">██╗  ██╗██╗███╗   ███╗███████╗███████╗██╗  ██╗</tspan>
+            <tspan x="28" dy="13">██║  ██║██║████╗ ████║██╔════╝██╔════╝██║  ██║</tspan>
+            <tspan x="28" dy="13">███████║██║██╔████╔██║█████╗  ███████╗███████║</tspan>
+            <tspan x="28" dy="13">██╔══██║██║██║╚██╔╝██║██╔══╝  ╚════██║██╔══██║</tspan>
+            <tspan x="28" dy="13">██║  ██║██║██║ ╚═╝ ██║███████╗███████║██║  ██║</tspan>
+            <tspan x="28" dy="13">╚═╝  ╚═╝╚═╝╚═╝     ╚═╝╚══════╝╚══════╝╚═╝  ╚═╝</tspan>
+
+            <tspan x="28" dy="20">██████╗ ██╗   ██╗██████╗  ██████╗██╗  ██╗</tspan>
+            <tspan x="28" dy="13">██╔══██╗██║   ██║██╔══██╗██╔════╝██║  ██║</tspan>
+            <tspan x="28" dy="13">██████╔╝██║   ██║██████╔╝██║     ███████║</tspan>
+            <tspan x="28" dy="13">██╔══██╗██║   ██║██╔═══╝ ██║     ██╔══██║</tspan>
+            <tspan x="28" dy="13">██║  ██║╚██████╔╝██║     ╚██████╗██║  ██║</tspan>
+            <tspan x="28" dy="13">╚═╝  ╚═╝ ╚═════╝ ╚═╝      ╚═════╝╚═╝  ╚═╝</tspan>
+
+            <tspan x="28" dy="22" font-size="9" fill="url(#g-ascii)">·────────────────────────────────────────────·</tspan>
+            <tspan x="28" dy="13" font-size="9">│  ⌨  Full Stack Developer  &amp;  AI Enthusiast  │</tspan>
+            <tspan x="28" dy="13" font-size="9">│  ◈  Building the future, one commit at a time │</tspan>
+            <tspan x="28" dy="13" font-size="9">·────────────────────────────────────────────·</tspan>
+
+          </text>
+
+          <!-- Scanlines overlay -->
+          <g opacity="0.08" fill="#22d3ee">
+            <rect x="24" y="108" width="402" height="1"/>
+            <rect x="24" y="121" width="402" height="1"/>
+            <rect x="24" y="134" width="402" height="1"/>
+            <rect x="24" y="147" width="402" height="1"/>
+            <rect x="24" y="160" width="402" height="1"/>
+            <rect x="24" y="173" width="402" height="1"/>
+            <rect x="24" y="186" width="402" height="1"/>
+            <rect x="24" y="199" width="402" height="1"/>
+            <rect x="24" y="212" width="402" height="1"/>
+            <rect x="24" y="225" width="402" height="1"/>
+            <rect x="24" y="238" width="402" height="1"/>
+            <rect x="24" y="251" width="402" height="1"/>
+            <rect x="24" y="264" width="402" height="1"/>
+            <rect x="24" y="277" width="402" height="1"/>
+            <rect x="24" y="290" width="402" height="1"/>
+            <rect x="24" y="303" width="402" height="1"/>
+            <rect x="24" y="316" width="402" height="1"/>
+            <rect x="24" y="329" width="402" height="1"/>
+            <rect x="24" y="342" width="402" height="1"/>
+            <rect x="24" y="355" width="402" height="1"/>
+          </g>
+
+          <!-- Moving scanline sweep over ASCII -->
+          <rect x="24" y="108" width="402" height="18" fill="url(#g-ascii)" opacity="0">
+            <animate attributeName="y" values="108;362;108" dur="3.5s" repeatCount="indefinite"/>
+            <animate attributeName="opacity" values="0;0.12;0" dur="3.5s" repeatCount="indefinite"/>
+          </rect>
+
+        </g>
+      </g>
+    </g>
+
+    <!-- ─── Status / Name area ─── -->
+    <!-- Name label -->
+    <text x="228" y="415" text-anchor="middle"
+      font-family="'SF Mono','Fira Code',monospace"
+      font-size="13" letter-spacing="5" font-weight="700"
+      fill="url(#g-ascii)" filter="url(#f-text-glow)">
+      <animate attributeName="opacity" values="0;0;1" begin="2.5s" dur="0.5s" fill="freeze"/>
+      HIMESH · RUPCHANDANI
+    </text>
+
+    <!-- Separator line -->
+    <line x1="60" y1="430" x2="396" y2="430"
+      stroke="url(#g-accent)" stroke-width="0.5" opacity="0">
+      <animate attributeName="opacity" values="0;0.5" begin="2.7s" dur="0.4s" fill="freeze"/>
+    </line>
+
+    <!-- Status badge -->
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" begin="2.9s" dur="0.4s" fill="freeze"/>
+
+      <!-- Badge background -->
+      <rect x="104" y="445" width="250" height="28" rx="14"
+        fill="rgba(16,185,129,0.1)" stroke="rgba(16,185,129,0.35)" stroke-width="1"/>
+
+      <!-- Pulse dot -->
+      <circle cx="126" cy="459" r="4.5" fill="#10b981" opacity="0.3">
+        <animate attributeName="r" values="4.5;8;4.5" dur="2s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.3;0;0.3" dur="2s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="126" cy="459" r="4.5" fill="#10b981"/>
+
+      <text x="228" y="463" text-anchor="middle"
+        font-family="'SF Mono','Fira Code',monospace"
+        font-size="11" fill="#10b981" letter-spacing="1">
+        ● Available for opportunities
+      </text>
+    </g>
+
+    <!-- Location chip -->
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" begin="3s" dur="0.4s" fill="freeze"/>
+      <rect x="104" y="482" width="250" height="26" rx="8"
+        fill="rgba(34,211,238,0.06)" stroke="rgba(34,211,238,0.2)" stroke-width="1"/>
+      <text x="228" y="499" text-anchor="middle"
+        font-family="'SF Mono','Fira Code',monospace"
+        font-size="10" fill="#64748b" letter-spacing="1.5">
+        📍  Rajkot, Gujarat, India
+      </text>
+    </g>
+
+    <!-- Year chip -->
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" begin="3.1s" dur="0.4s" fill="freeze"/>
+      <rect x="104" y="516" width="250" height="26" rx="8"
+        fill="rgba(124,58,237,0.06)" stroke="rgba(124,58,237,0.2)" stroke-width="1"/>
+      <text x="228" y="533" text-anchor="middle"
+        font-family="'SF Mono','Fira Code',monospace"
+        font-size="10" fill="#64748b" letter-spacing="1.5">
+        🚀  Coding since 2021
+      </text>
+    </g>
+
+    <!-- Bottom prompt with cursor -->
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" begin="3.2s" dur="0.4s" fill="freeze"/>
+      <text x="30" y="571"
+        font-family="'SF Mono','Fira Code',monospace"
+        font-size="10" fill="#10b981">$</text>
+      <text x="44" y="571"
+        font-family="'SF Mono','Fira Code',monospace"
+        font-size="10" fill="#475569">cat himesh.json</text>
+
+      <!-- Blinking cursor -->
+      <rect x="136" y="559" width="7" height="13" rx="1" fill="url(#g-cursor)">
+        <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <!-- ╔═══════════════════════════════════════════════════════╗ -->
+    <!-- ║  RIGHT PANEL                                          ║ -->
+    <!-- ╚═══════════════════════════════════════════════════════╝ -->
+
+    <!-- Panel glow halo -->
+    <rect x="446" y="14" width="720" height="582" rx="18"
+      fill="none" stroke="#22d3ee" stroke-width="1.5" opacity="0.2"
+      filter="url(#f-panel-glow)">
+      <animate attributeName="opacity" values="0.2;0.5;0.2" dur="5s" begin="0.5s" repeatCount="indefinite"/>
+      <animate attributeName="stroke" values="#22d3ee;#7c3aed;#22d3ee" dur="7s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Panel base -->
+    <rect x="450" y="18" width="712" height="574" rx="14"
+      fill="url(#g-right-panel)"/>
+
+    <!-- Glass reflection -->
+    <rect x="450" y="18" width="712" height="200" rx="14"
+      fill="url(#g-glass)"/>
+
+    <!-- Subtle inner shimmer -->
+    <rect x="450" y="18" width="712" height="574" rx="14"
+      fill="none" stroke="url(#g-border-right)" stroke-width="1.5"/>
+    <rect x="451.5" y="19.5" width="709" height="571" rx="13"
+      fill="none" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+
+    <!-- ─── Terminal Header RIGHT ─── -->
+    <circle cx="480" cy="46" r="6" fill="#ff5f57"/>
+    <circle cx="480" cy="46" r="6" fill="none" stroke="#e0443e" stroke-width="0.5"/>
+    <circle cx="502" cy="46" r="6" fill="#febc2e"/>
+    <circle cx="502" cy="46" r="6" fill="none" stroke="#d4a017" stroke-width="0.5"/>
+    <circle cx="524" cy="46" r="6" fill="#28c840"/>
+    <circle cx="524" cy="46" r="6" fill="none" stroke="#1aab29" stroke-width="0.5"/>
+
+    <text x="806" y="51" text-anchor="middle"
+      font-family="'SF Mono','Fira Code',monospace"
+      font-size="11" fill="#475569" letter-spacing="1.5">
+      himesh@portfolio — bash
+    </text>
+
+    <!-- Header separator -->
+    <line x1="450" y1="66" x2="1162" y2="66"
+      stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+    <line x1="450" y1="66" x2="1162" y2="66"
+      stroke="url(#g-accent)" stroke-width="0.5" opacity="0.3">
+      <animate attributeName="opacity" values="0.3;0.7;0.3" dur="4s" repeatCount="indefinite"/>
+    </line>
+
+    <!-- ─── GREETING ─── -->
+    <g mask="url(#m-greet)">
+      <!-- Comment line -->
+      <text x="475" y="96"
+        font-family="'SF Mono','Fira Code',monospace"
+        font-size="11.5" fill="#334155" letter-spacing="0.3">
+        # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+      </text>
+      <text x="475" y="112"
+        font-family="'SF Mono','Fira Code',monospace"
+        font-size="11.5" fill="#334155">
+        # Welcome to Himesh's terminal  🚀
+      </text>
+      <text x="475" y="128"
+        font-family="'SF Mono','Fira Code',monospace"
+        font-size="11.5" fill="#334155">
+        # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+      </text>
+
+      <!-- Hi line -->
+      <text x="475" y="162"
+        font-family="'SF Mono','Fira Code',monospace"
+        font-size="34" font-weight="800" letter-spacing="-1">
+        <tspan fill="#f8fafc">Hi 👋 I'm </tspan>
+        <tspan fill="url(#g-accent)" filter="url(#f-text-glow)">Himesh</tspan>
+      </text>
+    </g>
+
+    <!-- ─── ANIMATED ROLE ─── -->
+    <g mask="url(#m-role)">
+      <!-- Role label -->
+      <text x="475" y="196"
+        font-family="'SF Mono','Fira Code',monospace"
+        font-size="13" fill="#475569">
+        &gt;_
+      </text>
+
+      <!-- Rotating roles via opacity animation -->
+      <text x="508" y="196"
+        font-family="'SF Mono','Fira Code',monospace"
+        font-size="13" font-weight="600" letter-spacing="0.5">
+
+        <!-- Role 1 -->
+        <tspan fill="#22d3ee">
+          <animate attributeName="opacity"
+            values="1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1"
+            dur="20s" repeatCount="indefinite"/>
+          Frontend Engineer ▌
+        </tspan>
+
+        <!-- Role 2 -->
+        <tspan fill="#a855f7" opacity="0">
+          <animate attributeName="opacity"
+            values="0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0"
+            dur="20s" repeatCount="indefinite"/>
+          Full Stack Developer ▌
+        </tspan>
+
+        <!-- Role 3 -->
+        <tspan fill="#10b981" opacity="0">
+          <animate attributeName="opacity"
+            values="0;0;0;0;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0"
+            dur="20s" repeatCount="indefinite"/>
+          Open Source Contributor ▌
+        </tspan>
+
+        <!-- Role 4 -->
+        <tspan fill="#f59e0b" opacity="0">
+          <animate attributeName="opacity"
+            values="0;0;0;0;0;0;0;0;0;0;0;0;1;1;0;0;0;0;0;0;0;0"
+            dur="20s" repeatCount="indefinite"/>
+          UI Engineer ▌
+        </tspan>
+
+        <!-- Role 5 -->
+        <tspan fill="#ec4899" opacity="0">
+          <animate attributeName="opacity"
+            values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;0;0;0;0"
+            dur="20s" repeatCount="indefinite"/>
+          AI Enthusiast ▌
+        </tspan>
+
+      </text>
+
+      <!-- Cursor blink after role -->
+      <rect x="480" y="182" width="7" height="16" rx="1" fill="#22d3ee" opacity="0">
+        <animate attributeName="opacity" values="0;0;1;0;1" dur="1s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <!-- ─── INFO ROWS ─── -->
+    <g mask="url(#m-info)">
+
+      <!-- Separator -->
+      <line x1="475" y1="218" x2="1145" y2="218"
+        stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+
+      <!-- Row: Location -->
+      <text x="475" y="244"
+        font-family="'SF Mono','Fira Code',monospace" font-size="12.5">
+        <tspan fill="#475569">📍  </tspan>
+        <tspan fill="#64748b" letter-spacing="0.5">Location   </tspan>
+        <tspan fill="#334155">·  </tspan>
+        <tspan fill="#f1f5f9" letter-spacing="0.3">Rajkot, Gujarat, India</tspan>
+      </text>
+
+      <!-- Row: Education -->
+      <text x="475" y="269"
+        font-family="'SF Mono','Fira Code',monospace" font-size="12.5">
+        <tspan fill="#475569">🎓  </tspan>
+        <tspan fill="#64748b" letter-spacing="0.5">Education  </tspan>
+        <tspan fill="#334155">·  </tspan>
+        <tspan fill="#f1f5f9" letter-spacing="0.3">B.Tech — Computer Science</tspan>
+      </text>
+
+      <!-- Row: Focus -->
+      <text x="475" y="294"
+        font-family="'SF Mono','Fira Code',monospace" font-size="12.5">
+        <tspan fill="#475569">🎯  </tspan>
+        <tspan fill="#64748b" letter-spacing="0.5">Focus      </tspan>
+        <tspan fill="#334155">·  </tspan>
+        <tspan fill="#f1f5f9" letter-spacing="0.3">Full Stack Dev + AI Integration</tspan>
+      </text>
+
+      <!-- Row: Portfolio -->
+      <text x="475" y="319"
+        font-family="'SF Mono','Fira Code',monospace" font-size="12.5">
+        <tspan fill="#475569">🌐  </tspan>
+        <tspan fill="#64748b" letter-spacing="0.5">Portfolio  </tspan>
+        <tspan fill="#334155">·  </tspan>
+        <tspan fill="#22d3ee" letter-spacing="0.3">himesh-rupchandani.vercel.app</tspan>
+      </text>
+
+      <!-- Row: Email -->
+      <text x="475" y="344"
+        font-family="'SF Mono','Fira Code',monospace" font-size="12.5">
+        <tspan fill="#475569">✉️  </tspan>
+        <tspan fill="#64748b" letter-spacing="0.5">Email      </tspan>
+        <tspan fill="#334155">·  </tspan>
+        <tspan fill="#22d3ee" letter-spacing="0.3">himesh.rupchandani@gmail.com</tspan>
+      </text>
+
+      <!-- Separator -->
+      <line x1="475" y1="364" x2="1145" y2="364"
+        stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+
+      <!-- Skills heading -->
+      <text x="475" y="385"
+        font-family="'SF Mono','Fira Code',monospace"
+        font-size="10" fill="#334155" letter-spacing="3">
+        ──  TECH STACK  ──────────────────────────────────────
+      </text>
+
+    </g>
+
+    <!-- ─── SKILLS PILLS ─── -->
+    <g mask="url(#m-skills)" filter="url(#f-pill-glow)">
+
+      <!-- ── ROW 1 ── -->
+
+      <!-- React -->
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;1" begin="2.6s" dur="0.25s" fill="freeze"/>
+        <rect x="475" y="395" width="78" height="27" rx="13.5"
+          fill="url(#g-pill-cyan)" stroke="#22d3ee" stroke-width="1" stroke-opacity="0.5"/>
+        <text x="514" y="413" text-anchor="middle"
+          font-family="'SF Mono','Fira Code',monospace"
+          font-size="11" font-weight="600" fill="#22d3ee">⚛ React</text>
+      </g>
+
+      <!-- Next.js -->
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;1" begin="2.75s" dur="0.25s" fill="freeze"/>
+        <rect x="561" y="395" width="82" height="27" rx="13.5"
+          fill="rgba(248,250,252,0.06)" stroke="rgba(248,250,252,0.2)" stroke-width="1"/>
+        <text x="602" y="413" text-anchor="middle"
+          font-family="'SF Mono','Fira Code',monospace"
+          font-size="11" font-weight="600" fill="#e2e8f0">▲ Next.js</text>
+      </g>
+
+      <!-- TypeScript -->
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;1" begin="2.9s" dur="0.25s" fill="freeze"/>
+        <rect x="651" y="395" width="102" height="27" rx="13.5"
+          fill="url(#g-pill-cyan)" stroke="#3b82f6" stroke-width="1" stroke-opacity="0.5"/>
+        <text x="702" y="413" text-anchor="middle"
+          font-family="'SF Mono','Fira Code',monospace"
+          font-size="11" font-weight="600" fill="#60a5fa">TS TypeScript</text>
+      </g>
+
+      <!-- Node.js -->
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;1" begin="3.05s" dur="0.25s" fill="freeze"/>
+        <rect x="761" y="395" width="82" height="27" rx="13.5"
+          fill="url(#g-pill-green)" stroke="#10b981" stroke-width="1" stroke-opacity="0.5"/>
+        <text x="802" y="413" text-anchor="middle"
+          font-family="'SF Mono','Fira Code',monospace"
+          font-size="11" font-weight="600" fill="#10b981">⬡ Node.js</text>
+      </g>
+
+      <!-- Tailwind -->
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;1" begin="3.2s" dur="0.25s" fill="freeze"/>
+        <rect x="851" y="395" width="88" height="27" rx="13.5"
+          fill="url(#g-pill-cyan)" stroke="#06b6d4" stroke-width="1" stroke-opacity="0.5"/>
+        <text x="895" y="413" text-anchor="middle"
+          font-family="'SF Mono','Fira Code',monospace"
+          font-size="11" font-weight="600" fill="#06b6d4">🌊 Tailwind</text>
+      </g>
+
+      <!-- Python -->
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;1" begin="3.35s" dur="0.25s" fill="freeze"/>
+        <rect x="947" y="395" width="78" height="27" rx="13.5"
+          fill="url(#g-pill-purple)" stroke="#a855f7" stroke-width="1" stroke-opacity="0.5"/>
+        <text x="986" y="413" text-anchor="middle"
+          font-family="'SF Mono','Fira Code',monospace"
+          font-size="11" font-weight="600" fill="#a855f7">🐍 Python</text>
+      </g>
+
+      <!-- ── ROW 2 ── -->
+
+      <!-- Docker -->
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;1" begin="3.5s" dur="0.25s" fill="freeze"/>
+        <rect x="475" y="432" width="78" height="27" rx="13.5"
+          fill="url(#g-pill-cyan)" stroke="#22d3ee" stroke-width="1" stroke-opacity="0.4"/>
+        <text x="514" y="450" text-anchor="middle"
+          font-family="'SF Mono','Fira Code',monospace"
+          font-size="11" font-weight="600" fill="#22d3ee">🐳 Docker</text>
+      </g>
+
+      <!-- Postgres -->
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;1" begin="3.6s" dur="0.25s" fill="freeze"/>
+        <rect x="561" y="432" width="92" height="27" rx="13.5"
+          fill="url(#g-pill-green)" stroke="#10b981" stroke-width="1" stroke-opacity="0.4"/>
+        <text x="607" y="450" text-anchor="middle"
+          font-family="'SF Mono','Fira Code',monospace"
+          font-size="11" font-weight="600" fill="#10b981">🐘 Postgres</text>
+      </g>
+
+      <!-- AWS -->
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;1" begin="3.7s" dur="0.25s" fill="freeze"/>
+        <rect x="661" y="432" width="62" height="27" rx="13.5"
+          fill="url(#g-pill-amber)" stroke="#f59e0b" stroke-width="1" stroke-opacity="0.4"/>
+        <text x="692" y="450" text-anchor="middle"
+          font-family="'SF Mono','Fira Code',monospace"
+          font-size="11" font-weight="600" fill="#f59e0b">☁ AWS</text>
+      </g>
+
+      <!-- Git -->
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;1" begin="3.8s" dur="0.25s" fill="freeze"/>
+        <rect x="731" y="432" width="58" height="27" rx="13.5"
+          fill="url(#g-pill-red)" stroke="#ef4444" stroke-width="1" stroke-opacity="0.4"/>
+        <text x="760" y="450" text-anchor="middle"
+          font-family="'SF Mono','Fira Code',monospace"
+          font-size="11" font-weight="600" fill="#ef4444">⎇ Git</text>
+      </g>
+
+      <!-- Figma -->
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;1" begin="3.9s" dur="0.25s" fill="freeze"/>
+        <rect x="797" y="432" width="72" height="27" rx="13.5"
+          fill="url(#g-pill-purple)" stroke="#a855f7" stroke-width="1" stroke-opacity="0.4"/>
+        <text x="833" y="450" text-anchor="middle"
+          font-family="'SF Mono','Fira Code',monospace"
+          font-size="11" font-weight="600" fill="#a855f7">✦ Figma</text>
+      </g>
+
+      <!-- MongoDB -->
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;1" begin="4s" dur="0.25s" fill="freeze"/>
+        <rect x="877" y="432" width="90" height="27" rx="13.5"
+          fill="url(#g-pill-green)" stroke="#10b981" stroke-width="1" stroke-opacity="0.4"/>
+        <text x="922" y="450" text-anchor="middle"
+          font-family="'SF Mono','Fira Code',monospace"
+          font-size="11" font-weight="600" fill="#10b981">🌿 MongoDB</text>
+      </g>
+
+      <!-- GraphQL -->
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;1" begin="4.1s" dur="0.25s" fill="freeze"/>
+        <rect x="975" y="432" width="86" height="27" rx="13.5"
+          fill="url(#g-pill-pink)" stroke="#ec4899" stroke-width="1" stroke-opacity="0.4"/>
+        <text x="1018" y="450" text-anchor="middle"
+          font-family="'SF Mono','Fira Code',monospace"
+          font-size="11" font-weight="600" fill="#ec4899">◈ GraphQL</text>
+      </g>
+
+      <!-- ── ROW 3 ── -->
+
+      <!-- Redis -->
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;1" begin="4.2s" dur="0.25s" fill="freeze"/>
+        <rect x="475" y="469" width="66" height="27" rx="13.5"
+          fill="url(#g-pill-red)" stroke="#ef4444" stroke-width="1" stroke-opacity="0.35"/>
+        <text x="508" y="487" text-anchor="middle"
+          font-family="'SF Mono','Fira Code',monospace"
+          font-size="11" font-weight="600" fill="#ef4444">⚡ Redis</text>
+      </g>
+
+      <!-- Kubernetes -->
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;1" begin="4.3s" dur="0.25s" fill="freeze"/>
+        <rect x="549" y="469" width="102" height="27" rx="13.5"
+          fill="url(#g-pill-cyan)" stroke="#22d3ee" stroke-width="1" stroke-opacity="0.35"/>
+        <text x="600" y="487" text-anchor="middle"
+          font-family="'SF Mono','Fira Code',monospace"
+          font-size="11" font-weight="600" fill="#22d3ee">☸ Kubernetes</text>
+      </g>
+
+      <!-- Linux -->
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;1" begin="4.4s" dur="0.25s" fill="freeze"/>
+        <rect x="659" y="469" width="70" height="27" rx="13.5"
+          fill="rgba(248,250,252,0.06)" stroke="rgba(248,250,252,0.18)" stroke-width="1"/>
+        <text x="694" y="487" text-anchor="middle"
+          font-family="'SF Mono','Fira Code',monospace"
+          font-size="11" font-weight="600" fill="#94a3b8">🐧 Linux</text>
+      </g>
+
+    </g>
+
+    <!-- ─── SOCIAL LINKS ─── -->
+    <g mask="url(#m-social)">
+
+      <!-- Separator -->
+      <line x1="475" y1="508" x2="1145" y2="508"
+        stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+
+      <!-- Section label -->
+      <text x="475" y="526"
+        font-family="'SF Mono','Fira Code',monospace"
+        font-size="10" fill="#334155" letter-spacing="2.5">
+        ──  CONNECT  ──────────────────────────────────────────
+      </text>
+
+      <!-- GitHub button -->
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;1" begin="3.3s" dur="0.3s" fill="freeze"/>
+        <rect x="475" y="536" width="128" height="34" rx="10"
+          fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+        <!-- Shimmer border -->
+        <rect x="475" y="536" width="128" height="34" rx="10"
+          fill="none" stroke="url(#g-border-left)" stroke-width="1" opacity="0.3">
+          <animate attributeName="opacity" values="0.3;0.7;0.3" dur="3s" repeatCount="indefinite"/>
+        </rect>
+        <text x="539" y="557" text-anchor="middle"
+          font-family="'SF Mono','Fira Code',monospace"
+          font-size="12" font-weight="500" fill="#e2e8f0">⌥  GitHub</text>
+      </g>
+
+      <!-- LinkedIn button -->
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;1" begin="3.45s" dur="0.3s" fill="freeze"/>
+        <rect x="613" y="536" width="128" height="34" rx="10"
+          fill="rgba(10,102,194,0.12)" stroke="rgba(10,102,194,0.35)" stroke-width="1"/>
+        <text x="677" y="557" text-anchor="middle"
+          font-family="'SF Mono','Fira Code',monospace"
+          font-size="12" font-weight="500" fill="#60a5fa">in  LinkedIn</text>
+      </g>
+
+      <!-- Twitter/X button -->
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;1" begin="3.6s" dur="0.3s" fill="freeze"/>
+        <rect x="751" y="536" width="128" height="34" rx="10"
+          fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+        <text x="815" y="557" text-anchor="middle"
+          font-family="'SF Mono','Fira Code',monospace"
+          font-size="12" font-weight="500" fill="#e2e8f0">𝕏  Twitter</text>
+      </g>
+
+      <!-- Portfolio button -->
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;1" begin="3.75s" dur="0.3s" fill="freeze"/>
+        <rect x="889" y="536" width="140" height="34" rx="10"
+          fill="rgba(124,58,237,0.12)" stroke="rgba(124,58,237,0.35)" stroke-width="1"/>
+        <!-- Glow -->
+        <rect x="889" y="536" width="140" height="34" rx="10"
+          fill="none" stroke="#7c3aed" stroke-width="1" opacity="0">
+          <animate attributeName="opacity" values="0;0.6;0" dur="2s" repeatCount="indefinite"/>
+        </rect>
+        <text x="959" y="557" text-anchor="middle"
+          font-family="'SF Mono','Fira Code',monospace"
+          font-size="12" font-weight="500" fill="#a855f7">✦  Portfolio</text>
+      </g>
+
+      <!-- Bottom terminal prompt -->
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;1" begin="3.9s" dur="0.3s" fill="freeze"/>
+        <text x="475" y="585"
+          font-family="'SF Mono','Fira Code',monospace" font-size="10.5">
+          <tspan fill="#10b981">himesh</tspan>
+          <tspan fill="#475569">@</tspan>
+          <tspan fill="#22d3ee">portfolio</tspan>
+          <tspan fill="#475569">:</tspan>
+          <tspan fill="#a855f7">~</tspan>
+          <tspan fill="#f8fafc"> $ </tspan>
+          <tspan fill="#64748b">git push origin main --force-with-love</tspan>
+        </text>
+        <!-- Blinking cursor -->
+        <rect x="820" y="573" width="7" height="13" rx="1" fill="#22d3ee">
+          <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+
+    </g>
+
+    <!-- ╔═══════════════════════════════════════════════════════════╗ -->
+    <!-- ║  GLOBAL OVERLAYS                                          ║ -->
+    <!-- ╚═══════════════════════════════════════════════════════════╝ -->
+
+    <!-- Vignette -->
+    <rect width="1180" height="610" fill="url(#g-vignette)"/>
+
+    <!-- Noise overlay -->
+    <rect width="1180" height="610" fill="#6366f1" opacity="0.018"
+      style="mix-blend-mode:overlay"/>
+
+    <!-- Canvas outer border -->
+    <rect width="1180" height="610" rx="18"
+      fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="1.5"/>
+
+    <!-- Corner accent marks -->
+    <!-- TL -->
+    <path d="M18,56 L18,18 L56,18" fill="none" stroke="url(#g-accent)" stroke-width="2"
+      stroke-linecap="round" opacity="0.6">
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite"/>
+    </path>
+    <!-- TR -->
+    <path d="M1124,18 L1162,18 L1162,56" fill="none" stroke="url(#g-accent)" stroke-width="2"
+      stroke-linecap="round" opacity="0.6">
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="3s" begin="0.75s" repeatCount="indefinite"/>
+    </path>
+    <!-- BL -->
+    <path d="M18,554 L18,592 L56,592" fill="none" stroke="url(#g-accent)" stroke-width="2"
+      stroke-linecap="round" opacity="0.6">
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="3s" begin="1.5s" repeatCount="indefinite"/>
+    </path>
+    <!-- BR -->
+    <path d="M1124,592 L1162,592 L1162,554" fill="none" stroke="url(#g-accent)" stroke-width="2"
+      stroke-linecap="round" opacity="0.6">
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="3s" begin="2.25s" repeatCount="indefinite"/>
+    </path>
+
+  </g>
+
+</svg>
