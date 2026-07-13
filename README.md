@@ -35,3 +35,41 @@
 <div align="center">
   <img src="https://streak-stats.demolab.com/?user=Himesh-rupchandani&theme=dark&cache_seconds=0" />
   </div>
+
+  ---
+
+<br/>
+
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Chart%20Increasing.png" alt="Activity" width="30" /> &nbsp; Contribution Activity
+
+<br/>
+
+<div align="center">
+
+<a href="https://github.com/Himesh-rupchandani">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Himesh-rupchandani&bg_color=0d1117&color=a78bfa&line=7c3aed&point=c084fc&area=true&area_color=7c3aed&hide_border=true&custom_title=Himesh%20Rupchandani's%20Contribution%20Graph" alt="Contribution Graph"/>
+</a>
+
+</div>
+
+<br/>
+
+---
+
+<br/>
+
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Snake.png" alt="Snake" width="30" /> &nbsp; Contribution Snake
+
+<br/>
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Himesh-rupchandani/Himesh-rupchandani/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Himesh-rupchandani/Himesh-rupchandani/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/Himesh-rupchandani/Himesh-rupchandani/output/github-snake-dark.svg" />
+</picture>
+
+</div>
+
+<br/>
