@@ -32,9 +32,23 @@
 </p>
 
 # 📊 GitHub Stats:
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bar%20Chart.png" alt="Stats" width="30" /> &nbsp; GitHub Stats
+
+<br/>
+
 <div align="center">
-  <img src="https://streak-stats.demolab.com/?user=Himesh-rupchandani&theme=dark&cache_seconds=0" />
-  </div>
+
+<img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Himesh-rupchandani&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=0d1117&title_color=a78bfa&icon_color=7c3aed&text_color=c9d1d9&ring_color=7c3aed&count_private=true&include_all_commits=true&show=reviews,prs_merged&rank_icon=github" alt="GitHub Stats"/>
+&nbsp;&nbsp;
+<img height="180" src="https://streak-stats.demolab.com?user=Himesh-rupchandani&theme=midnight-purple&hide_border=true&background=0D1117&ring=7C3AED&fire=A78BFA&currStreakLabel=A78BFA&sideLabels=C9D1D9&currStreakNum=C9D1D9&sideNums=C9D1D9&dates=6B7280" alt="GitHub Streak"/>
+
+<br/><br/>
+
+<img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Himesh-rupchandani&layout=compact&theme=midnight-purple&hide_border=true&bg_color=0d1117&title_color=a78bfa&text_color=c9d1d9&langs_count=8" alt="Top Languages"/>
+
+</div>
+
+<br/>
 
   ---
 
