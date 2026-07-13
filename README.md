@@ -6,14 +6,14 @@
   <img src="dark.svg" alt="Himesh Rupchandani" width="100%">
 </picture>
 
-## 🌐 Socials:
+# 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/himesh-rupchandani-1049bb377/)
 [![Gmail](https://img.shields.io/badge/-Gmail-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:rupchandanihimesh69@gmail.com?subject=Hello%20Himesh&body=Hey%20Himesh,%20how%20are%20you?%20I%20just%20saw%20your%20GitHub%20profile%20and%20I%20want%20to%20connect%20with%20you.)
 
 
 
 
-## 👁️ Profile Counter:
+# 👁️ Profile Counter:
 ![Profile Views](https://komarev.com/ghpvc/?username=Himesh-rupchandani&label=Profile%20views&color=0e75b6&style=flat&base=0)
 
 
@@ -24,7 +24,8 @@
   </p>
 
 
-## 🧠 LeetCode Stats:
+# 🧠 LeetCode Stats:
+</br>
 <p align="center">
   <a href="https://leetcode.com/Himesh-rupchandani/">
     <img src="https://leetcard.jacoblin.cool/Himesh-rupchandani?theme=dark&font=Karma" />
@@ -32,8 +33,6 @@
 </p>
 
 # 📊 GitHub Stats:
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bar%20Chart.png" alt="Stats" width="30" /> &nbsp; GitHub Stats
-
 <br/>
 
 <div align="center">
