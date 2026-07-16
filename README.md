@@ -28,8 +28,8 @@
 </br>
 <p align="center">
   <a href="https://leetcode.com/Himesh-rupchandani/">
-    <img src="https://leetcard.jacoblin.cool/Himesh-rupchandani?theme=dark&font=Karma" />
-      </a>
+    <img src="https://leetcard.jacoblin.cool/Himesh-rupchandani?theme=dark&font=Karma&ext=heatmap&border=1&radius=15&width=500" alt="LeetCode Stats"/>
+  </a>
 </p>
 
 # 📊 GitHub Stats:
@@ -86,3 +86,10 @@
 </div>
 
 <br/>
+
+<div align="center">
+<br/><br/>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,25&height=120&section=footer&text=Thanks%20for%20visiting!&fontSize=24&fontColor=a78bfa&animation=fadeIn&fontAlignY=65" alt="Footer"/>
+
+</div>
