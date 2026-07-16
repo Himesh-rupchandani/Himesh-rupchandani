@@ -1,0 +1,467 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 160" width="1180" height="160">
+  <defs>
+
+    <!-- Background gradient dark red luxury -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1a0000"/>
+      <stop offset="25%" style="stop-color:#3d0000"/>
+      <stop offset="50%" style="stop-color:#5c0a00"/>
+      <stop offset="75%" style="stop-color:#3d0000"/>
+      <stop offset="100%" style="stop-color:#1a0000"/>
+    </linearGradient>
+
+    <!-- Gold rope gradient -->
+    <linearGradient id="ropeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#92400e"/>
+      <stop offset="20%" style="stop-color:#d97706"/>
+      <stop offset="40%" style="stop-color:#fbbf24"/>
+      <stop offset="60%" style="stop-color:#f59e0b"/>
+      <stop offset="80%" style="stop-color:#fbbf24"/>
+      <stop offset="100%" style="stop-color:#92400e"/>
+    </linearGradient>
+
+    <!-- Red pendant gradient -->
+    <linearGradient id="redPend" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#7f1d1d"/>
+      <stop offset="40%" style="stop-color:#dc2626"/>
+      <stop offset="100%" style="stop-color:#fca5a5"/>
+    </linearGradient>
+
+    <!-- Gold pendant gradient -->
+    <linearGradient id="goldPend" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#78350f"/>
+      <stop offset="40%" style="stop-color:#d97706"/>
+      <stop offset="100%" style="stop-color:#fde68a"/>
+    </linearGradient>
+
+    <!-- Orange pendant gradient -->
+    <linearGradient id="orangePend" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#7c2d12"/>
+      <stop offset="40%" style="stop-color:#ea580c"/>
+      <stop offset="100%" style="stop-color:#fed7aa"/>
+    </linearGradient>
+
+    <!-- Center medallion gradient -->
+    <linearGradient id="centerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7f1d1d"/>
+      <stop offset="50%" style="stop-color:#dc2626"/>
+      <stop offset="100%" style="stop-color:#fbbf24"/>
+    </linearGradient>
+
+    <!-- Text gold shimmer gradient -->
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#fbbf24"/>
+      <stop offset="30%" style="stop-color:#fde68a"/>
+      <stop offset="50%" style="stop-color:#ffffff"/>
+      <stop offset="70%" style="stop-color:#fde68a"/>
+      <stop offset="100%" style="stop-color:#fbbf24"/>
+      <animateTransform attributeName="gradientTransform" type="translate"
+        values="-1 0; 1 0; -1 0" dur="3s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <!-- Glow filter red -->
+    <filter id="redGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Glow filter gold -->
+    <filter id="goldGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Strong text glow -->
+    <filter id="textGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Flicker filter for diya -->
+    <filter id="flicker">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="4" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="2" result="displaced"/>
+      <feMerge>
+        <feMergeNode in="displaced"/>
+      </feMerge>
+    </filter>
+
+    <!-- Clip for whole SVG -->
+    <clipPath id="svgClip">
+      <rect width="1180" height="160" rx="0"/>
+    </clipPath>
+
+  </defs>
+
+  <!-- ═══ BACKGROUND ═══ -->
+  <rect width="1180" height="160" fill="url(#bgGrad)"/>
+
+  <!-- Top gold border line -->
+  <rect x="0" y="0" width="1180" height="4" fill="url(#ropeGrad)"/>
+
+  <!-- Bottom gold border line -->
+  <rect x="0" y="156" width="1180" height="4" fill="url(#ropeGrad)"/>
+
+  <!-- Subtle inner top red line -->
+  <rect x="0" y="5" width="1180" height="1" fill="#ef4444" opacity="0.4"/>
+
+  <!-- ═══ MAIN ROPE ═══ -->
+  <line x1="0" y1="22" x2="1180" y2="22"
+    stroke="url(#ropeGrad)" stroke-width="4"
+    filter="url(#goldGlow)"/>
+
+  <!-- Rope texture dots -->
+  <line x1="0" y1="22" x2="1180" y2="22"
+    stroke="#fde68a" stroke-width="1"
+    stroke-dasharray="8,12" opacity="0.5"/>
+
+  <!-- ═══ LEFT BRACKET ═══ -->
+  <rect x="0" y="12" width="22" height="20" fill="#d97706" rx="3"/>
+  <rect x="3" y="15" width="16" height="14" fill="#92400e" rx="2"/>
+  <circle cx="11" cy="22" r="3" fill="#fbbf24"/>
+
+  <!-- ═══ RIGHT BRACKET ═══ -->
+  <rect x="1158" y="12" width="22" height="20" fill="#d97706" rx="3"/>
+  <rect x="1161" y="15" width="16" height="14" fill="#92400e" rx="2"/>
+  <circle cx="1169" cy="22" r="3" fill="#fbbf24"/>
+
+  <!-- ═══════════════════════════════════════════ -->
+  <!-- PENDANTS — 15 total, symmetric around x=590 -->
+  <!-- Positions: 45, 125, 205, 285, 365, 445, 505, 590(center), 675, 735, 815, 895, 975, 1055, 1135 -->
+  <!-- Pattern: Red, Gold, Orange, Red, Gold, Orange, Red, CENTER, Red, Orange, Gold, Red, Orange, Gold, Red -->
+  <!-- ═══════════════════════════════════════════ -->
+
+  <!-- ═══ PENDANT 1 x=45 RED ═══ -->
+  <g transform="translate(45, 22)">
+    <animateTransform attributeName="transform" type="rotate"
+      values="-6,45,22; 6,45,22; -6,45,22" dur="2.8s" repeatCount="indefinite"/>
+    <line x1="0" y1="0" x2="0" y2="16" stroke="#d97706" stroke-width="2.5"/>
+    <ellipse cx="0" cy="30" rx="11" ry="18" fill="url(#redPend)" filter="url(#redGlow)"/>
+    <ellipse cx="0" cy="25" rx="5" ry="4" fill="#fca5a5" opacity="0.4"/>
+    <circle cx="0" cy="50" r="6" fill="#dc2626" filter="url(#redGlow)"/>
+    <circle cx="0" cy="50" r="3" fill="#fbbf24"/>
+    <circle cx="0" cy="50" r="1.5" fill="#ffffff"/>
+  </g>
+
+  <!-- ═══ PENDANT 2 x=125 GOLD ═══ -->
+  <g transform="translate(125, 22)">
+    <animateTransform attributeName="transform" type="rotate"
+      values="5,125,22; -5,125,22; 5,125,22" dur="3.2s" repeatCount="indefinite"/>
+    <line x1="0" y1="0" x2="0" y2="16" stroke="#d97706" stroke-width="2.5"/>
+    <ellipse cx="0" cy="30" rx="11" ry="18" fill="url(#goldPend)" filter="url(#goldGlow)"/>
+    <ellipse cx="0" cy="25" rx="5" ry="4" fill="#fde68a" opacity="0.4"/>
+    <circle cx="0" cy="50" r="6" fill="#f59e0b" filter="url(#goldGlow)"/>
+    <circle cx="0" cy="50" r="3" fill="#fbbf24"/>
+    <circle cx="0" cy="50" r="1.5" fill="#ffffff"/>
+  </g>
+
+  <!-- ═══ PENDANT 3 x=205 ORANGE ═══ -->
+  <g transform="translate(205, 22)">
+    <animateTransform attributeName="transform" type="rotate"
+      values="-5,205,22; 7,205,22; -5,205,22" dur="2.5s" repeatCount="indefinite"/>
+    <line x1="0" y1="0" x2="0" y2="16" stroke="#d97706" stroke-width="2.5"/>
+    <ellipse cx="0" cy="30" rx="11" ry="18" fill="url(#orangePend)" filter="url(#redGlow)"/>
+    <ellipse cx="0" cy="25" rx="5" ry="4" fill="#fed7aa" opacity="0.4"/>
+    <circle cx="0" cy="50" r="6" fill="#ea580c" filter="url(#redGlow)"/>
+    <circle cx="0" cy="50" r="3" fill="#fbbf24"/>
+    <circle cx="0" cy="50" r="1.5" fill="#ffffff"/>
+  </g>
+
+  <!-- ═══ PENDANT 4 x=285 RED ═══ -->
+  <g transform="translate(285, 22)">
+    <animateTransform attributeName="transform" type="rotate"
+      values="7,285,22; -6,285,22; 7,285,22" dur="3s" repeatCount="indefinite"/>
+    <line x1="0" y1="0" x2="0" y2="16" stroke="#d97706" stroke-width="2.5"/>
+    <ellipse cx="0" cy="30" rx="11" ry="18" fill="url(#redPend)" filter="url(#redGlow)"/>
+    <ellipse cx="0" cy="25" rx="5" ry="4" fill="#fca5a5" opacity="0.4"/>
+    <circle cx="0" cy="50" r="6" fill="#dc2626" filter="url(#redGlow)"/>
+    <circle cx="0" cy="50" r="3" fill="#fbbf24"/>
+    <circle cx="0" cy="50" r="1.5" fill="#ffffff"/>
+  </g>
+
+  <!-- ═══ PENDANT 5 x=365 GOLD ═══ -->
+  <g transform="translate(365, 22)">
+    <animateTransform attributeName="transform" type="rotate"
+      values="-6,365,22; 5,365,22; -6,365,22" dur="2.7s" repeatCount="indefinite"/>
+    <line x1="0" y1="0" x2="0" y2="16" stroke="#d97706" stroke-width="2.5"/>
+    <ellipse cx="0" cy="30" rx="11" ry="18" fill="url(#goldPend)" filter="url(#goldGlow)"/>
+    <ellipse cx="0" cy="25" rx="5" ry="4" fill="#fde68a" opacity="0.4"/>
+    <circle cx="0" cy="50" r="6" fill="#f59e0b" filter="url(#goldGlow)"/>
+    <circle cx="0" cy="50" r="3" fill="#fbbf24"/>
+    <circle cx="0" cy="50" r="1.5" fill="#ffffff"/>
+  </g>
+
+  <!-- ═══ PENDANT 6 x=445 ORANGE ═══ -->
+  <g transform="translate(445, 22)">
+    <animateTransform attributeName="transform" type="rotate"
+      values="6,445,22; -7,445,22; 6,445,22" dur="3.3s" repeatCount="indefinite"/>
+    <line x1="0" y1="0" x2="0" y2="16" stroke="#d97706" stroke-width="2.5"/>
+    <ellipse cx="0" cy="30" rx="11" ry="18" fill="url(#orangePend)" filter="url(#redGlow)"/>
+    <ellipse cx="0" cy="25" rx="5" ry="4" fill="#fed7aa" opacity="0.4"/>
+    <circle cx="0" cy="50" r="6" fill="#ea580c" filter="url(#redGlow)"/>
+    <circle cx="0" cy="50" r="3" fill="#fbbf24"/>
+    <circle cx="0" cy="50" r="1.5" fill="#ffffff"/>
+  </g>
+
+  <!-- ═══ PENDANT 7 x=515 RED ═══ -->
+  <g transform="translate(515, 22)">
+    <animateTransform attributeName="transform" type="rotate"
+      values="-5,515,22; 6,515,22; -5,515,22" dur="2.9s" repeatCount="indefinite"/>
+    <line x1="0" y1="0" x2="0" y2="16" stroke="#d97706" stroke-width="2.5"/>
+    <ellipse cx="0" cy="30" rx="11" ry="18" fill="url(#redPend)" filter="url(#redGlow)"/>
+    <ellipse cx="0" cy="25" rx="5" ry="4" fill="#fca5a5" opacity="0.4"/>
+    <circle cx="0" cy="50" r="6" fill="#dc2626" filter="url(#redGlow)"/>
+    <circle cx="0" cy="50" r="3" fill="#fbbf24"/>
+    <circle cx="0" cy="50" r="1.5" fill="#ffffff"/>
+  </g>
+
+  <!-- ═══ CENTER PENDANT x=590 SPECIAL LARGE ═══ -->
+  <g transform="translate(590, 22)">
+    <animateTransform attributeName="transform" type="rotate"
+      values="-3,590,22; 3,590,22; -3,590,22" dur="4s" repeatCount="indefinite"/>
+    <line x1="0" y1="0" x2="0" y2="12" stroke="#fbbf24" stroke-width="3.5"/>
+    <!-- Outer ring -->
+    <circle cx="0" cy="38" r="28" fill="#1a0000" stroke="#fbbf24" stroke-width="2.5" filter="url(#goldGlow)"/>
+    <!-- Middle ring -->
+    <circle cx="0" cy="38" r="22" fill="#7f1d1d" stroke="#f59e0b" stroke-width="1.5"/>
+    <!-- Inner fill -->
+    <circle cx="0" cy="38" r="15" fill="url(#centerGrad)"/>
+    <!-- Decorative dots around inner -->
+    <circle cx="0" cy="24" r="2.5" fill="#fbbf24"/>
+    <circle cx="0" cy="52" r="2.5" fill="#fbbf24"/>
+    <circle cx="-14" cy="38" r="2.5" fill="#fbbf24"/>
+    <circle cx="14" cy="38" r="2.5" fill="#fbbf24"/>
+    <circle cx="-10" cy="28" r="1.5" fill="#fde68a"/>
+    <circle cx="10" cy="28" r="1.5" fill="#fde68a"/>
+    <circle cx="-10" cy="48" r="1.5" fill="#fde68a"/>
+    <circle cx="10" cy="48" r="1.5" fill="#fde68a"/>
+    <!-- OM Text center -->
+    <text x="0" y="43" text-anchor="middle" font-size="16"
+      fill="#fbbf24" font-family="serif" font-weight="bold"
+      filter="url(#textGlow)">ॐ</text>
+    <!-- Bottom bead chain -->
+    <line x1="0" y1="66" x2="0" y2="78" stroke="#d97706" stroke-width="2"/>
+    <circle cx="0" cy="82" r="6" fill="#dc2626" filter="url(#redGlow)"/>
+    <circle cx="0" cy="82" r="3" fill="#fbbf24"/>
+    <line x1="0" y1="88" x2="0" y2="96" stroke="#d97706" stroke-width="1.5"/>
+    <circle cx="0" cy="100" r="4" fill="#f59e0b"/>
+    <circle cx="0" cy="100" r="2" fill="#fde68a"/>
+  </g>
+
+  <!-- ═══ PENDANT 9 x=665 RED (mirror 7) ═══ -->
+  <g transform="translate(665, 22)">
+    <animateTransform attributeName="transform" type="rotate"
+      values="5,665,22; -6,665,22; 5,665,22" dur="2.9s" repeatCount="indefinite"/>
+    <line x1="0" y1="0" x2="0" y2="16" stroke="#d97706" stroke-width="2.5"/>
+    <ellipse cx="0" cy="30" rx="11" ry="18" fill="url(#redPend)" filter="url(#redGlow)"/>
+    <ellipse cx="0" cy="25" rx="5" ry="4" fill="#fca5a5" opacity="0.4"/>
+    <circle cx="0" cy="50" r="6" fill="#dc2626" filter="url(#redGlow)"/>
+    <circle cx="0" cy="50" r="3" fill="#fbbf24"/>
+    <circle cx="0" cy="50" r="1.5" fill="#ffffff"/>
+  </g>
+
+  <!-- ═══ PENDANT 10 x=735 ORANGE (mirror 6) ═══ -->
+  <g transform="translate(735, 22)">
+    <animateTransform attributeName="transform" type="rotate"
+      values="-6,735,22; 7,735,22; -6,735,22" dur="3.3s" repeatCount="indefinite"/>
+    <line x1="0" y1="0" x2="0" y2="16" stroke="#d97706" stroke-width="2.5"/>
+    <ellipse cx="0" cy="30" rx="11" ry="18" fill="url(#orangePend)" filter="url(#redGlow)"/>
+    <ellipse cx="0" cy="25" rx="5" ry="4" fill="#fed7aa" opacity="0.4"/>
+    <circle cx="0" cy="50" r="6" fill="#ea580c" filter="url(#redGlow)"/>
+    <circle cx="0" cy="50" r="3" fill="#fbbf24"/>
+    <circle cx="0" cy="50" r="1.5" fill="#ffffff"/>
+  </g>
+
+  <!-- ═══ PENDANT 11 x=815 GOLD (mirror 5) ═══ -->
+  <g transform="translate(815, 22)">
+    <animateTransform attributeName="transform" type="rotate"
+      values="6,815,22; -5,815,22; 6,815,22" dur="2.7s" repeatCount="indefinite"/>
+    <line x1="0" y1="0" x2="0" y2="16" stroke="#d97706" stroke-width="2.5"/>
+    <ellipse cx="0" cy="30" rx="11" ry="18" fill="url(#goldPend)" filter="url(#goldGlow)"/>
+    <ellipse cx="0" cy="25" rx="5" ry="4" fill="#fde68a" opacity="0.4"/>
+    <circle cx="0" cy="50" r="6" fill="#f59e0b" filter="url(#goldGlow)"/>
+    <circle cx="0" cy="50" r="3" fill="#fbbf24"/>
+    <circle cx="0" cy="50" r="1.5" fill="#ffffff"/>
+  </g>
+
+  <!-- ═══ PENDANT 12 x=895 RED (mirror 4) ═══ -->
+  <g transform="translate(895, 22)">
+    <animateTransform attributeName="transform" type="rotate"
+      values="-7,895,22; 6,895,22; -7,895,22" dur="3s" repeatCount="indefinite"/>
+    <line x1="0" y1="0" x2="0" y2="16" stroke="#d97706" stroke-width="2.5"/>
+    <ellipse cx="0" cy="30" rx="11" ry="18" fill="url(#redPend)" filter="url(#redGlow)"/>
+    <ellipse cx="0" cy="25" rx="5" ry="4" fill="#fca5a5" opacity="0.4"/>
+    <circle cx="0" cy="50" r="6" fill="#dc2626" filter="url(#redGlow)"/>
+    <circle cx="0" cy="50" r="3" fill="#fbbf24"/>
+    <circle cx="0" cy="50" r="1.5" fill="#ffffff"/>
+  </g>
+
+  <!-- ═══ PENDANT 13 x=975 ORANGE (mirror 3) ═══ -->
+  <g transform="translate(975, 22)">
+    <animateTransform attributeName="transform" type="rotate"
+      values="5,975,22; -7,975,22; 5,975,22" dur="2.5s" repeatCount="indefinite"/>
+    <line x1="0" y1="0" x2="0" y2="16" stroke="#d97706" stroke-width="2.5"/>
+    <ellipse cx="0" cy="30" rx="11" ry="18" fill="url(#orangePend)" filter="url(#redGlow)"/>
+    <ellipse cx="0" cy="25" rx="5" ry="4" fill="#fed7aa" opacity="0.4"/>
+    <circle cx="0" cy="50" r="6" fill="#ea580c" filter="url(#redGlow)"/>
+    <circle cx="0" cy="50" r="3" fill="#fbbf24"/>
+    <circle cx="0" cy="50" r="1.5" fill="#ffffff"/>
+  </g>
+
+  <!-- ═══ PENDANT 14 x=1055 GOLD (mirror 2) ═══ -->
+  <g transform="translate(1055, 22)">
+    <animateTransform attributeName="transform" type="rotate"
+      values="-5,1055,22; 5,1055,22; -5,1055,22" dur="3.2s" repeatCount="indefinite"/>
+    <line x1="0" y1="0" x2="0" y2="16" stroke="#d97706" stroke-width="2.5"/>
+    <ellipse cx="0" cy="30" rx="11" ry="18" fill="url(#goldPend)" filter="url(#goldGlow)"/>
+    <ellipse cx="0" cy="25" rx="5" ry="4" fill="#fde68a" opacity="0.4"/>
+    <circle cx="0" cy="50" r="6" fill="#f59e0b" filter="url(#goldGlow)"/>
+    <circle cx="0" cy="50" r="3" fill="#fbbf24"/>
+    <circle cx="0" cy="50" r="1.5" fill="#ffffff"/>
+  </g>
+
+  <!-- ═══ PENDANT 15 x=1135 RED (mirror 1) ═══ -->
+  <g transform="translate(1135, 22)">
+    <animateTransform attributeName="transform" type="rotate"
+      values="6,1135,22; -6,1135,22; 6,1135,22" dur="2.8s" repeatCount="indefinite"/>
+    <line x1="0" y1="0" x2="0" y2="16" stroke="#d97706" stroke-width="2.5"/>
+    <ellipse cx="0" cy="30" rx="11" ry="18" fill="url(#redPend)" filter="url(#redGlow)"/>
+    <ellipse cx="0" cy="25" rx="5" ry="4" fill="#fca5a5" opacity="0.4"/>
+    <circle cx="0" cy="50" r="6" fill="#dc2626" filter="url(#redGlow)"/>
+    <circle cx="0" cy="50" r="3" fill="#fbbf24"/>
+    <circle cx="0" cy="50" r="1.5" fill="#ffffff"/>
+  </g>
+
+  <!-- ═══ ROPE CONNECTOR BEADS BETWEEN PENDANTS ═══ -->
+  <circle cx="85" cy="22" r="3.5" fill="#fbbf24" opacity="0.8"/>
+  <circle cx="165" cy="22" r="3.5" fill="#ef4444" opacity="0.8"/>
+  <circle cx="245" cy="22" r="3.5" fill="#fbbf24" opacity="0.8"/>
+  <circle cx="325" cy="22" r="3.5" fill="#ef4444" opacity="0.8"/>
+  <circle cx="405" cy="22" r="3.5" fill="#fbbf24" opacity="0.8"/>
+  <circle cx="480" cy="22" r="3.5" fill="#ef4444" opacity="0.8"/>
+  <circle cx="553" cy="22" r="3.5" fill="#fbbf24" opacity="0.8"/>
+  <circle cx="628" cy="22" r="3.5" fill="#fbbf24" opacity="0.8"/>
+  <circle cx="700" cy="22" r="3.5" fill="#ef4444" opacity="0.8"/>
+  <circle cx="775" cy="22" r="3.5" fill="#fbbf24" opacity="0.8"/>
+  <circle cx="855" cy="22" r="3.5" fill="#ef4444" opacity="0.8"/>
+  <circle cx="935" cy="22" r="3.5" fill="#fbbf24" opacity="0.8"/>
+  <circle cx="1015" cy="22" r="3.5" fill="#ef4444" opacity="0.8"/>
+  <circle cx="1095" cy="22" r="3.5" fill="#fbbf24" opacity="0.8"/>
+
+  <!-- ═══ WELCOME TEXT AREA ═══ -->
+  <!-- Background text panel -->
+  <rect x="280" y="68" width="620" height="52" rx="10"
+    fill="#1a0000" opacity="0.7"
+    stroke="#d97706" stroke-width="1.5"/>
+
+  <!-- Decorative side lines -->
+  <line x1="290" y1="94" x2="340" y2="94" stroke="#d97706" stroke-width="1.5" opacity="0.7"/>
+  <line x1="840" y1="94" x2="890" y2="94" stroke="#d97706" stroke-width="1.5" opacity="0.7"/>
+
+  <!-- Diamond decorators -->
+  <polygon points="345,94 352,88 359,94 352,100"
+    fill="#dc2626" filter="url(#redGlow)"/>
+  <polygon points="821,94 828,88 835,94 828,100"
+    fill="#dc2626" filter="url(#redGlow)"/>
+
+  <!-- 🙏 WELCOME TEXT — Main animated -->
+  <text x="590" y="87" text-anchor="middle"
+    font-size="11" font-family="Georgia, serif"
+    fill="#fde68a" letter-spacing="4" opacity="0.9">
+    🙏 · · ·
+    <animate attributeName="opacity"
+      values="0.7;1;0.7" dur="2s" repeatCount="indefinite"/>
+  </text>
+
+  <text x="590" y="108" text-anchor="middle"
+    font-size="22" font-family="Georgia, serif" font-weight="bold"
+    fill="url(#textGrad)" letter-spacing="8"
+    filter="url(#textGlow)">
+    🙏  W E L C O M E  🙏
+    <animate attributeName="letter-spacing"
+      values="8;12;8" dur="3s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- Sub text -->
+  <text x="590" y="128" text-anchor="middle"
+    font-size="10" font-family="Georgia, serif"
+    fill="#fbbf24" letter-spacing="3" opacity="0.8">
+    ✦  Code · Create · Contribute · Inspire  ✦
+    <animate attributeName="opacity"
+      values="0.6;1;0.6" dur="2.5s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- ═══ CORNER DIYAS (animated flicker) ═══ -->
+  <!-- Left diya -->
+  <g>
+    <ellipse cx="60" cy="120" rx="18" ry="8" fill="#92400e"/>
+    <ellipse cx="60" cy="118" rx="16" ry="6" fill="#d97706"/>
+    <ellipse cx="60" cy="117" rx="10" ry="4" fill="#fbbf24"/>
+    <!-- Flame -->
+    <ellipse cx="60" cy="106" rx="5" ry="10" fill="#f97316" opacity="0.9">
+      <animate attributeName="ry" values="10;13;9;12;10" dur="0.8s" repeatCount="indefinite"/>
+      <animate attributeName="cx" values="60;61;59;60;61;60" dur="0.6s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="60" cy="104" rx="3" ry="7" fill="#fbbf24">
+      <animate attributeName="ry" values="7;9;6;8;7" dur="0.8s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="60" cy="103" rx="1.5" ry="4" fill="#ffffff" opacity="0.8">
+      <animate attributeName="ry" values="4;5;3;5;4" dur="0.7s" repeatCount="indefinite"/>
+    </ellipse>
+  </g>
+
+  <!-- Right diya -->
+  <g>
+    <ellipse cx="1120" cy="120" rx="18" ry="8" fill="#92400e"/>
+    <ellipse cx="1120" cy="118" rx="16" ry="6" fill="#d97706"/>
+    <ellipse cx="1120" cy="117" rx="10" ry="4" fill="#fbbf24"/>
+    <!-- Flame -->
+    <ellipse cx="1120" cy="106" rx="5" ry="10" fill="#f97316" opacity="0.9">
+      <animate attributeName="ry" values="10;12;9;13;10" dur="0.9s" repeatCount="indefinite"/>
+      <animate attributeName="cx" values="1120;1119;1121;1120;1119;1120" dur="0.7s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="1120" cy="104" rx="3" ry="7" fill="#fbbf24">
+      <animate attributeName="ry" values="7;8;6;9;7" dur="0.9s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="1120" cy="103" rx="1.5" ry="4" fill="#ffffff" opacity="0.8">
+      <animate attributeName="ry" values="4;5;3;4;4" dur="0.8s" repeatCount="indefinite"/>
+    </ellipse>
+  </g>
+
+  <!-- ═══ SPARKLE ANIMATIONS scattered ═══ -->
+  <circle cx="200" cy="100" r="2" fill="#fbbf24">
+    <animate attributeName="opacity" values="0;1;0" dur="1.8s" repeatCount="indefinite" begin="0.3s"/>
+    <animate attributeName="r" values="1;3;1" dur="1.8s" repeatCount="indefinite" begin="0.3s"/>
+  </circle>
+
+  <circle cx="980" cy="100" r="2" fill="#fbbf24">
+    <animate attributeName="opacity" values="0;1;0" dur="2.1s" repeatCount="indefinite" begin="0.9s"/>
+    <animate attributeName="r" values="1;3;1" dur="2.1s" repeatCount="indefinite" begin="0.9s"/>
+  </circle>
+
+  <circle cx="150" cy="130" r="1.5" fill="#ef4444">
+    <animate attributeName="opacity" values="0;1;0" dur="1.5s" repeatCount="indefinite" begin="0.5s"/>
+  </circle>
+
+  <circle cx="1030" cy="130" r="1.5" fill="#ef4444">
+    <animate attributeName="opacity" values="0;1;0" dur="1.7s" repeatCount="indefinite" begin="1.1s"/>
+  </circle>
+
+  <circle cx="400" cy="140" r="1.5" fill="#fde68a">
+    <animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite" begin="0.2s"/>
+  </circle>
+
+  <circle cx="780" cy="140" r="1.5" fill="#fde68a">
+    <animate attributeName="opacity" values="0;1;0" dur="1.9s" repeatCount="indefinite" begin="0.7s"/>
+  </circle>
+
+</svg>
