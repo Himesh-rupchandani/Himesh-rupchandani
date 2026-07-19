@@ -39,7 +39,7 @@
 <p align="center">
   <a href="https://leetcode.com/Himesh-rupchandani/">
     <img
-      src="https://leetcard.jacoblin.cool/Himesh-rupchandani?theme=dark&font=Karma&ext=heatmap&border=1&radius=15&width=600"
+      src="https://leetcard.jacoblin.cool/Himesh-rupchandani?theme=dark&font=Karma&ext=heatmap&border=1&radius=15&width=520"
       alt="Himesh's LeetCode Stats"
     />
   </a>
@@ -99,4 +99,10 @@
   </picture>
 </p>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=7C3AED&height=120&section=footer&text=Thanks%20for%20visiting!&fontSize=24&fontColor=FFFFFF&animation=fadeIn&fontAlignY=65" alt="Thanks for visiting">
+<p align="center">
+  <img
+    src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,25&width=1400&height=120&section=footer&text=Thanks%20for%20visiting!&fontSize=24&fontColor=E9D5FF&animation=fadeIn&fontAlignY=65"
+    alt="Thanks for visiting"
+    width="100%"
+  />
+</p>
