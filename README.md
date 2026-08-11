@@ -1,6 +1,6 @@
 <p align="center">
   <img
-    src="https://capsule-render.vercel.app/api?type=venom&color=gradient&height=145&section=header&text=HIMESH%20RUPCHANDANI&fontSize=44&fontColor=FFFFFF&animation=fadeIn&fontAlignY=44&desc=CSE%20STUDENT%20%E2%80%A2%20CODE%20%E2%80%A2%20CREATE%20%E2%80%A2%20GROW&descSize=17&descAlignY=68"
+    src="https://capsule-render.vercel.app/api?type=waving&color=0:FF00E4,50:7C4DFF,100:00E5FF&height=150&section=header&text=HIMESH%20RUPCHANDANI&fontSize=44&fontColor=FFFFFF&animation=fadeIn&fontAlignY=36&desc=CSE%20STUDENT%20%E2%80%A2%20CODE%20%E2%80%A2%20CREATE%20%E2%80%A2%20GROW&descSize=15&descAlignY=62&descAlign=50"
     alt="Himesh Rupchandani"
     width="100%"
   >
@@ -76,10 +76,11 @@
 <br>
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Himesh-rupchandani&show_icons=true&hide_border=true&bg_color=0D1117&title_color=FF8C00&icon_color=FF8C00&text_color=C9D1D9&ring_color=FF8C00&include_all_commits=true&count_private=true" alt="Himesh's GitHub Stats"/>
+  <img height="170" src="https://github-readme-stats-kohl-ten.vercel.app/api?username=Himesh-rupchandani&show_icons=true&hide_border=true&bg_color=0D1117&title_color=FF8C00&icon_color=FF8C00&text_color=C9D1D9&ring_color=FF8C00&include_all_commits=true&count_private=true" alt="Himesh's GitHub Stats"/>
 
-  <img height="170" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Himesh-rupchandani&layout=compact&hide_border=true&bg_color=0D1117&title_color=FF8C00&text_color=C9D1D9&langs_count=6" alt="Himesh's Top Languages"/>
+  <img height="170" src="https://github-readme-stats-kohl-ten.vercel.app/api/top-langs/?username=Himesh-rupchandani&layout=compact&hide_border=true&bg_color=0D1117&title_color=FF8C00&text_color=C9D1D9&langs_count=6" alt="Himesh's Top Languages"/>
 </p>
+
 
 ---
 
@@ -101,7 +102,7 @@
 
 <p align="center">
   <img
-    src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,25&width=1400&height=120&section=footer&text=Thanks%20for%20visiting!&fontSize=24&fontColor=E9D5FF&animation=fadeIn&fontAlignY=65"
+    src="https://capsule-render.vercel.app/api?type=waving&color=0:FF00E4,50:7C4DFF,100:00E5FF&height=120&section=footer&text=Thanks%20for%20visiting!&fontSize=24&fontColor=FFFFFF&animation=fadeIn&fontAlignY=65"
     alt="Thanks for visiting"
     width="100%"
   />
