@@ -1,13 +1,4 @@
-<p align="center">
-  <img
-    src="https://capsule-render.vercel.app/api?type=waving&color=0:FF00E4,50:7C4DFF,100:00E5FF&height=150&section=header&text=HIMESH%20RUPCHANDANI&fontSize=44&fontColor=FFFFFF&animation=fadeIn&fontAlignY=36&desc=CSE%20STUDENT%20%E2%80%A2%20CODE%20%E2%80%A2%20CREATE%20%E2%80%A2%20GROW&descSize=15&descAlignY=62&descAlign=50"
-    alt="Himesh Rupchandani"
-    width="100%"
-  >
-</p>
-
-<br>
-
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF00E4,50:7C4DFF,100:00E5FF&height=200&section=header&text=HIMESH%20RUPCHANDANI&fontSize=44&fontColor=FFFFFF&animation=fadeIn&fontAlignY=36&desc=CSE%20STUDENT%20%E2%80%A2%20CODE%20%E2%80%A2%20CREATE%20%E2%80%A2%20GROW&descSize=15&descAlignY=62&descAlign=50" alt="Himesh Rupchandani" width="100%">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="light.svg">
