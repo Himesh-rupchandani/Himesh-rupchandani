@@ -115,7 +115,7 @@ My daily practice ground — **240+ commits** from fundamentals to DSA.
 studying:   B.Tech CSE (AI & Data Science) @ Marwadi University, Rajkot
 building:   real-time computer vision tools with OpenCV + MediaPipe
 learning:   pandas · NumPy · scikit-learn · SQL
-grinding:   LeetCode mediums — targeting 100 by October 2026
+grinding:   LeetCode mediums — targeting 100 by end of 2026
 seeking:    SDE / Data Science internships — Summer 2027
 available:  open to remote · Rajkot / Ahmedabad on-site
 reach me:   rupchandanihimesh69@gmail.com
