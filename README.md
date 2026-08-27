@@ -109,6 +109,16 @@ My daily practice ground — **240+ commits** from fundamentals to DSA.
 </tr>
 </table>
 
+## 🤝 Open Source:
+
+Contributions to projects I use:
+
+| Project | Contribution | Status |
+| --- | --- | --- |
+| [pixpick](https://github.com/K-saif/pixpick) | [#73](https://github.com/K-saif/pixpick/pull/73) — fixed Enter key not closing the line-selection window | ✅ Merged |
+| [SciPy](https://github.com/scipy/scipy) | [#26040](https://github.com/scipy/scipy/pull/26040) — corrected `p_lb` index type in the `ShortTimeFFT` tutorial | 🔄 Open |
+| [OpenCV](https://github.com/opencv/opencv_zoo) | [#317](https://github.com/opencv/opencv_zoo/pull/317) — LPD-YuNet evaluation script on CCPD | 🔄 Open |
+
 ## 🎯 Currently:
 
 ```yaml
