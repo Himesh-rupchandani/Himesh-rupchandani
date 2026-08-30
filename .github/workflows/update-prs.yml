@@ -15,47 +15,132 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Fetch last 5 PRs
+      - name: Fetch and update PRs
         uses: actions/github-script@v7
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             const username = 'Himesh-rupchandani';
+            console.log(`Fetching PRs for user: ${username}`);
+            
             const { data: prs } = await github.rest.search.issuesAndPullRequests({
-              q: `author:${username} type:pr state:open,merged`,
+              q: `author:${username} type:pr`,
               sort: 'updated',
               order: 'desc',
-              per_page: 20
+              per_page: 30
             });
+            
+            console.log(`Found ${prs.items.length} total PRs`);
             
             const externalPRs = prs.items.filter(pr => {
               const repoFullName = pr.repository_url.replace('https://api.github.com/repos/', '');
               return !repoFullName.startsWith(`${username}/`);
-            }).slice(0, 5);
+            });
             
-            let table = '| Project | Contribution | Status |\n';
-            table += '| --- | --- | --- |\n';
+            console.log(`Found ${externalPRs.length} external PRs`);
             
-            for (const pr of externalPRs) {
-              const repoUrl = pr.repository_url.replace('api.github.com/repos', 'github.com');
-              const repoName = repoUrl.split('/').slice(-2).join('/');
-              const status = pr.state === 'closed' && pr.pull_request?.merged_at ? '✅ Merged' : '🔄 Open';
-              const title = pr.title.length > 50 ? pr.title.substring(0, 50) + '...' : pr.title;
-              table += `| [${repoName}](${repoUrl}) | [#${pr.number}](${pr.html_url}) — ${title} | ${status} |\n`;
+            for (const pr of externalPRs.slice(0, 5)) {
+              const repoFullName = pr.repository_url.replace('https://api.github.com/repos/', '');
+              console.log(`PR: ${repoFullName} #${pr.number} - ${pr.title} - State: ${pr.state}`);
             }
+            
+            let table = '<table>\n';
+            table += '  <thead>\n';
+            table += '    <tr>\n';
+            table += '      <th align="center" style="background: linear-gradient(135deg, #8B5CF6, #00E5FF); color: white; padding: 12px 20px; border-radius: 8px 0 0 0;">🎯 Project</th>\n';
+            table += '      <th align="center" style="background: linear-gradient(135deg, #8B5CF6, #00E5FF); color: white; padding: 12px 20px;">📝 Contribution</th>\n';
+            table += '      <th align="center" style="background: linear-gradient(135deg, #8B5CF6, #00E5FF); color: white; padding: 12px 20px; border-radius: 0 8px 0 0;">📊 Status</th>\n';
+            table += '    </tr>\n';
+            table += '  </thead>\n';
+            table += '  <tbody>\n';
+            
+            let index = 0;
+            const prList = externalPRs.slice(0, 5);
+            
+            for (const pr of prList) {
+              const repoUrl = pr.repository_url.replace('api.github.com/repos', 'github.com');
+              const repoFullName = pr.repository_url.replace('https://api.github.com/repos/', '');
+              const orgName = repoFullName.split('/')[0];
+              const repoName = repoFullName.split('/')[1];
+              const title = pr.title.length > 50 ? pr.title.substring(0, 50) + '...' : pr.title;
+              const bgColor = index % 2 === 0 ? '#161B22' : '#0D1117';
+              const isLast = index === prList.length - 1 && prList.length === 5;
+              const borderRadius = isLast ? 'border-radius: 0 0 0 8px;' : '';
+              const borderRadiusRight = isLast ? 'border-radius: 0 0 8px 0;' : '';
+              
+              let statusBadge = '';
+              if (pr.pull_request?.merged_at) {
+                statusBadge = '<img src="https://img.shields.io/badge/MERGED-8B5CF6?style=for-the-badge&logoColor=white&labelColor=8B5CF6" alt="Merged">';
+              } else if (pr.state === 'closed') {
+                statusBadge = '<img src="https://img.shields.io/badge/CLOSED-EF4444?style=for-the-badge&logoColor=white&labelColor=EF4444" alt="Closed">';
+              } else {
+                statusBadge = '<img src="https://img.shields.io/badge/OPEN-10B981?style=for-the-badge&logoColor=white&labelColor=10B981" alt="Open">';
+              }
+              
+              table += '    <tr>\n';
+              table += `      <td align="center" style="background: ${bgColor}; padding: 15px; border-bottom: 1px solid #30363D; ${borderRadius}">\n`;
+              table += `        <img src="https://github.com/${orgName}.png" width="24" height="24" style="border-radius: 50%; vertical-align: middle; margin-right: 8px;">\n`;
+              table += `        <a href="${repoUrl}"><strong>${repoName}</strong></a>\n`;
+              table += '      </td>\n';
+              table += `      <td style="background: ${bgColor}; padding: 15px; border-bottom: 1px solid #30363D;">\n`;
+              table += `        <a href="${pr.html_url}">#${pr.number}</a> — ${title}\n`;
+              table += '      </td>\n';
+              table += `      <td align="center" style="background: ${bgColor}; padding: 15px; border-bottom: 1px solid #30363D; ${borderRadiusRight}">\n`;
+              table += `        ${statusBadge}\n`;
+              table += '      </td>\n';
+              table += '    </tr>\n';
+              index++;
+            }
+            
+            while (index < 5) {
+              const bgColor = index % 2 === 0 ? '#161B22' : '#0D1117';
+              const isLast = index === 4;
+              const borderRadius = isLast ? 'border-radius: 0 0 0 8px;' : '';
+              const borderRadiusRight = isLast ? 'border-radius: 0 0 8px 0;' : '';
+              
+              table += '    <tr>\n';
+              table += `      <td align="center" style="background: ${bgColor}; padding: 15px; border-bottom: 1px solid #30363D; ${borderRadius}">\n`;
+              table += '        🚀 <em>Coming Soon</em>\n';
+              table += '      </td>\n';
+              table += `      <td style="background: ${bgColor}; padding: 15px; border-bottom: 1px solid #30363D; color: #8B949E;">\n`;
+              table += '        <em>Next contribution in progress...</em>\n';
+              table += '      </td>\n';
+              table += `      <td align="center" style="background: ${bgColor}; padding: 15px; border-bottom: 1px solid #30363D; ${borderRadiusRight}">\n`;
+              table += '        <img src="https://img.shields.io/badge/PENDING-FF00E4?style=for-the-badge&logoColor=white&labelColor=FF00E4" alt="Pending">\n';
+              table += '      </td>\n';
+              table += '    </tr>\n';
+              index++;
+            }
+            
+            table += '  </tbody>\n';
+            table += '</table>';
+            
+            console.log('Generated table HTML');
             
             const fs = require('fs');
             let readme = fs.readFileSync('README.md', 'utf8');
+            
+            console.log('README.md length:', readme.length);
+            
             const startMarker = '<!--START_SECTION:prs-->';
             const endMarker = '<!--END_SECTION:prs-->';
             const startIndex = readme.indexOf(startMarker);
             const endIndex = readme.indexOf(endMarker);
+            
+            console.log('Start marker found at:', startIndex);
+            console.log('End marker found at:', endIndex);
             
             if (startIndex !== -1 && endIndex !== -1) {
               readme = readme.substring(0, startIndex + startMarker.length) + 
                        '\n' + table + '\n' + 
                        readme.substring(endIndex);
               fs.writeFileSync('README.md', readme);
+              console.log('README.md updated successfully!');
+            } else {
+              console.log('ERROR: Markers not found in README.md!');
+              console.log('Make sure your README contains:');
+              console.log('<!--START_SECTION:prs-->');
+              console.log('<!--END_SECTION:prs-->');
             }
 
       - name: Commit and push
