@@ -1,0 +1,67 @@
+name: Update Open Source PRs
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-prs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Fetch last 5 PRs
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const username = 'Himesh-rupchandani';
+            const { data: prs } = await github.rest.search.issuesAndPullRequests({
+              q: `author:${username} type:pr state:open,merged`,
+              sort: 'updated',
+              order: 'desc',
+              per_page: 20
+            });
+            
+            const externalPRs = prs.items.filter(pr => {
+              const repoFullName = pr.repository_url.replace('https://api.github.com/repos/', '');
+              return !repoFullName.startsWith(`${username}/`);
+            }).slice(0, 5);
+            
+            let table = '| Project | Contribution | Status |\n';
+            table += '| --- | --- | --- |\n';
+            
+            for (const pr of externalPRs) {
+              const repoUrl = pr.repository_url.replace('api.github.com/repos', 'github.com');
+              const repoName = repoUrl.split('/').slice(-2).join('/');
+              const status = pr.state === 'closed' && pr.pull_request?.merged_at ? '✅ Merged' : '🔄 Open';
+              const title = pr.title.length > 50 ? pr.title.substring(0, 50) + '...' : pr.title;
+              table += `| [${repoName}](${repoUrl}) | [#${pr.number}](${pr.html_url}) — ${title} | ${status} |\n`;
+            }
+            
+            const fs = require('fs');
+            let readme = fs.readFileSync('README.md', 'utf8');
+            const startMarker = '<!--START_SECTION:prs-->';
+            const endMarker = '<!--END_SECTION:prs-->';
+            const startIndex = readme.indexOf(startMarker);
+            const endIndex = readme.indexOf(endMarker);
+            
+            if (startIndex !== -1 && endIndex !== -1) {
+              readme = readme.substring(0, startIndex + startMarker.length) + 
+                       '\n' + table + '\n' + 
+                       readme.substring(endIndex);
+              fs.writeFileSync('README.md', readme);
+            }
+
+      - name: Commit and push
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add README.md
+          git diff --staged --quiet || git commit -m "chore: update open source contributions [skip ci]"
+          git push
