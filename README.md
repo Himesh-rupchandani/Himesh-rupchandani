@@ -113,7 +113,6 @@ My daily practice ground — **240+ commits** from fundamentals to DSA.
 
 ## 🤝 Open Source Contributions:
 <!--START_SECTION:prs-->
-
 <table>
   <thead>
     <tr>
@@ -124,52 +123,67 @@ My daily practice ground — **240+ commits** from fundamentals to DSA.
   </thead>
   <tbody>
     <tr>
-      <td align="center" style="background: #161B22; padding: 15px; border-bottom: 1px solid #30363D;">
-        <img src="https://github.com/K-saif.png" width="24" height="24" style="border-radius: 50%; vertical-align: middle; margin-right: 8px;">
-        <a href="https://github.com/K-saif/pixpick"><strong>pixpick</strong></a>
+      <td align="center" style="background: #161B22; padding: 15px; border-bottom: 1px solid #30363D; ">
+        <img src="https://github.com/scikit-image.png" width="24" height="24" style="border-radius: 50%; vertical-align: middle; margin-right: 8px;">
+        <a href="https://github.com/scikit-image/scikit-image"><strong>scikit-image</strong></a>
       </td>
       <td style="background: #161B22; padding: 15px; border-bottom: 1px solid #30363D;">
-        <a href="https://github.com/K-saif/pixpick/pull/73">#73</a> — Fixed Enter key not closing the line-selection window
+        <a href="https://github.com/scikit-image/scikit-image/pull/8302">#8302</a> — Validate bandwidth in gabor_kernel
       </td>
-      <td align="center" style="background: #161B22; padding: 15px; border-bottom: 1px solid #30363D;">
+      <td align="center" style="background: #161B22; padding: 15px; border-bottom: 1px solid #30363D; ">
+        <img src="https://img.shields.io/badge/OPEN-10B981?style=for-the-badge&logoColor=white&labelColor=10B981" alt="Open">
+      </td>
+    </tr>
+    <tr>
+      <td align="center" style="background: #0D1117; padding: 15px; border-bottom: 1px solid #30363D; ">
+        <img src="https://github.com/kornia.png" width="24" height="24" style="border-radius: 50%; vertical-align: middle; margin-right: 8px;">
+        <a href="https://github.com/kornia/kornia"><strong>kornia</strong></a>
+      </td>
+      <td style="background: #0D1117; padding: 15px; border-bottom: 1px solid #30363D;">
+        <a href="https://github.com/kornia/kornia/pull/4055">#4055</a> — fix(color): validate chroma plane height in yuv422...
+      </td>
+      <td align="center" style="background: #0D1117; padding: 15px; border-bottom: 1px solid #30363D; ">
+        <img src="https://img.shields.io/badge/OPEN-10B981?style=for-the-badge&logoColor=white&labelColor=10B981" alt="Open">
+      </td>
+    </tr>
+    <tr>
+      <td align="center" style="background: #161B22; padding: 15px; border-bottom: 1px solid #30363D; ">
+        <img src="https://github.com/kornia.png" width="24" height="24" style="border-radius: 50%; vertical-align: middle; margin-right: 8px;">
+        <a href="https://github.com/kornia/kornia"><strong>kornia</strong></a>
+      </td>
+      <td style="background: #161B22; padding: 15px; border-bottom: 1px solid #30363D;">
+        <a href="https://github.com/kornia/kornia/pull/4076">#4076</a> — fix(geometry): match full-path exception type on e...
+      </td>
+      <td align="center" style="background: #161B22; padding: 15px; border-bottom: 1px solid #30363D; ">
         <img src="https://img.shields.io/badge/MERGED-8B5CF6?style=for-the-badge&logoColor=white&labelColor=8B5CF6" alt="Merged">
       </td>
     </tr>
     <tr>
-      <td align="center" style="background: #0D1117; padding: 15px; border-bottom: 1px solid #30363D;">
-        <img src="https://github.com/scipy.png" width="24" height="24" style="border-radius: 50%; vertical-align: middle; margin-right: 8px;">
-        <a href="https://github.com/scipy/scipy"><strong>SciPy</strong></a>
+      <td align="center" style="background: #0D1117; padding: 15px; border-bottom: 1px solid #30363D; ">
+        <img src="https://github.com/opencv.png" width="24" height="24" style="border-radius: 50%; vertical-align: middle; margin-right: 8px;">
+        <a href="https://github.com/opencv/opencv_zoo"><strong>opencv_zoo</strong></a>
       </td>
       <td style="background: #0D1117; padding: 15px; border-bottom: 1px solid #30363D;">
-        <a href="https://github.com/scipy/scipy/pull/26040">#26040</a> — Corrected <code>p_lb</code> index type in the ShortTimeFFT tutorial
+        <a href="https://github.com/opencv/opencv_zoo/pull/317">#317</a> — Add LPD-YuNet evaluation script on CCPD
       </td>
-      <td align="center" style="background: #0D1117; padding: 15px; border-bottom: 1px solid #30363D;">
+      <td align="center" style="background: #0D1117; padding: 15px; border-bottom: 1px solid #30363D; ">
         <img src="https://img.shields.io/badge/OPEN-10B981?style=for-the-badge&logoColor=white&labelColor=10B981" alt="Open">
       </td>
     </tr>
     <tr>
-      <td align="center" style="background: #161B22; padding: 15px; border-bottom: 1px solid #30363D;">
-        <img src="https://github.com/opencv.png" width="24" height="24" style="border-radius: 50%; vertical-align: middle; margin-right: 8px;">
-        <a href="https://github.com/opencv/opencv_zoo"><strong>OpenCV Zoo</strong></a>
+      <td align="center" style="background: #161B22; padding: 15px; border-bottom: 1px solid #30363D; border-radius: 0 0 0 8px;">
+        <img src="https://github.com/scipy.png" width="24" height="24" style="border-radius: 50%; vertical-align: middle; margin-right: 8px;">
+        <a href="https://github.com/scipy/scipy"><strong>scipy</strong></a>
       </td>
       <td style="background: #161B22; padding: 15px; border-bottom: 1px solid #30363D;">
-        <a href="https://github.com/opencv/opencv_zoo/pull/317">#317</a> — LPD-YuNet evaluation script on CCPD dataset
+        <a href="https://github.com/scipy/scipy/pull/26049">#26049</a> — DOC: correct p_lb to slice index in ShortTimeFFT t...
       </td>
-      <td align="center" style="background: #161B22; padding: 15px; border-bottom: 1px solid #30363D;">
-        <img src="https://img.shields.io/badge/OPEN-10B981?style=for-the-badge&logoColor=white&labelColor=10B981" alt="Open">
+      <td align="center" style="background: #161B22; padding: 15px; border-bottom: 1px solid #30363D; border-radius: 0 0 8px 0;">
+        <img src="https://img.shields.io/badge/MERGED-8B5CF6?style=for-the-badge&logoColor=white&labelColor=8B5CF6" alt="Merged">
       </td>
     </tr>
-    <tr>
-      <td align="center" style="background: #0D1117; padding: 15px; border-bottom: 1px solid #30363D;">
-        🚀 <em>Coming Soon</em>
-      </td>
-      <td style="background: #0D1117; padding: 15px; border-bottom: 1px solid #30363D; color: #8B949E;">
-        <em>Next contribution in progress...</em>
-      </td>
-      <td align="center" style="background: #0D1117; padding: 15px; border-bottom: 1px solid #30363D;">
-        <img src="https://img.shields.io/badge/PENDING-FF00E4?style=for-the-badge&logoColor=white&labelColor=FF00E4" alt="Pending">
-      </td>
-    
+  </tbody>
+</table>
 <!--END_SECTION:prs-->
 
 > 🔄 *Auto-updated daily via GitHub Action — shows my latest 5 contributions to open source projects.*
