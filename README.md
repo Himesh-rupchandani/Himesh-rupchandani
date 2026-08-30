@@ -112,6 +112,7 @@ My daily practice ground — **240+ commits** from fundamentals to DSA.
 ---
 
 ## 🤝 Open Source Contributions:
+<!--START_SECTION:prs-->
 
 <table>
   <thead>
