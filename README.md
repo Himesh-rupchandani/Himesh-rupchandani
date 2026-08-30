@@ -109,15 +109,82 @@ My daily practice ground — **240+ commits** from fundamentals to DSA.
 </tr>
 </table>
 
-## 🤝 Open Source:
+---
 
-Contributions to projects I use:
+## 🤝 Open Source Contributions:
 
-| Project | Contribution | Status |
-| --- | --- | --- |
-| [pixpick](https://github.com/K-saif/pixpick) | [#73](https://github.com/K-saif/pixpick/pull/73) — fixed Enter key not closing the line-selection window | ✅ Merged |
-| [SciPy](https://github.com/scipy/scipy) | [#26040](https://github.com/scipy/scipy/pull/26040) — corrected `p_lb` index type in the `ShortTimeFFT` tutorial | 🔄 Open |
-| [OpenCV](https://github.com/opencv/opencv_zoo) | [#317](https://github.com/opencv/opencv_zoo/pull/317) — LPD-YuNet evaluation script on CCPD | 🔄 Open |
+<!--START_SECTION:prs-->
+<table>
+  <thead>
+    <tr>
+      <th align="center" style="background: linear-gradient(135deg, #8B5CF6, #00E5FF); color: white; padding: 12px 20px; border-radius: 8px 0 0 0;">🎯 Project</th>
+      <th align="center" style="background: linear-gradient(135deg, #8B5CF6, #00E5FF); color: white; padding: 12px 20px;">📝 Contribution</th>
+      <th align="center" style="background: linear-gradient(135deg, #8B5CF6, #00E5FF); color: white; padding: 12px 20px; border-radius: 0 8px 0 0;">📊 Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" style="background: #161B22; padding: 15px; border-bottom: 1px solid #30363D;">
+        <a href="https://github.com/K-saif/pixpick"><strong>pixpick</strong></a>
+      </td>
+      <td style="background: #161B22; padding: 15px; border-bottom: 1px solid #30363D;">
+        <a href="https://github.com/K-saif/pixpick/pull/73">#73</a> — Fixed Enter key not closing the line-selection window
+      </td>
+      <td align="center" style="background: #161B22; padding: 15px; border-bottom: 1px solid #30363D;">
+        <img src="https://img.shields.io/badge/✅%20Merged-8B5CF6?style=flat&logo=github&logoColor=white" alt="Merged">
+      </td>
+    </tr>
+    <tr>
+      <td align="center" style="background: #0D1117; padding: 15px; border-bottom: 1px solid #30363D;">
+        <a href="https://github.com/scipy/scipy"><strong>SciPy</strong></a>
+      </td>
+      <td style="background: #0D1117; padding: 15px; border-bottom: 1px solid #30363D;">
+        <a href="https://github.com/scipy/scipy/pull/26040">#26040</a> — Corrected <code>p_lb</code> index type in the ShortTimeFFT tutorial
+      </td>
+      <td align="center" style="background: #0D1117; padding: 15px; border-bottom: 1px solid #30363D;">
+        <img src="https://img.shields.io/badge/🔄%20Open-10B981?style=flat&logo=github&logoColor=white" alt="Open">
+      </td>
+    </tr>
+    <tr>
+      <td align="center" style="background: #161B22; padding: 15px; border-bottom: 1px solid #30363D;">
+        <a href="https://github.com/opencv/opencv_zoo"><strong>OpenCV Zoo</strong></a>
+      </td>
+      <td style="background: #161B22; padding: 15px; border-bottom: 1px solid #30363D;">
+        <a href="https://github.com/opencv/opencv_zoo/pull/317">#317</a> — LPD-YuNet evaluation script on CCPD dataset
+      </td>
+      <td align="center" style="background: #161B22; padding: 15px; border-bottom: 1px solid #30363D;">
+        <img src="https://img.shields.io/badge/🔄%20Open-10B981?style=flat&logo=github&logoColor=white" alt="Open">
+      </td>
+    </tr>
+    <tr>
+      <td align="center" style="background: #0D1117; padding: 15px; border-bottom: 1px solid #30363D;">
+        <a href="#"><strong>Coming Soon</strong></a>
+      </td>
+      <td style="background: #0D1117; padding: 15px; border-bottom: 1px solid #30363D; color: #8B949E;">
+        <em>Next contribution in progress...</em>
+      </td>
+      <td align="center" style="background: #0D1117; padding: 15px; border-bottom: 1px solid #30363D;">
+        <img src="https://img.shields.io/badge/⏳%20Pending-FF00E4?style=flat&logo=github&logoColor=white" alt="Pending">
+      </td>
+    </tr>
+    <tr>
+      <td align="center" style="background: #161B22; padding: 15px; border-radius: 0 0 0 8px;">
+        <a href="#"><strong>Coming Soon</strong></a>
+      </td>
+      <td style="background: #161B22; padding: 15px; color: #8B949E;">
+        <em>Next contribution in progress...</em>
+      </td>
+      <td align="center" style="background: #161B22; padding: 15px; border-radius: 0 0 8px 0;">
+        <img src="https://img.shields.io/badge/⏳%20Pending-FF00E4?style=flat&logo=github&logoColor=white" alt="Pending">
+      </td>
+    </tr>
+  </tbody>
+</table>
+<!--END_SECTION:prs-->
+
+> 🔄 *Auto-updated daily via GitHub Action — shows my latest 5 contributions to open source projects.*
+
+---
 
 ## 🎯 Currently:
 
