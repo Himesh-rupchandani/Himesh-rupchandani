@@ -124,23 +124,23 @@ My daily practice ground — **240+ commits** from fundamentals to DSA.
   <tbody>
     <tr>
       <td align="center" style="background: #161B22; padding: 15px; border-bottom: 1px solid #30363D; ">
-        <img src="https://github.com/scikit-image.png" width="24" height="24" style="border-radius: 50%; vertical-align: middle; margin-right: 8px;">
-        <a href="https://github.com/scikit-image/scikit-image"><strong>scikit-image</strong></a>
+        <img src="https://github.com/kornia.png" width="24" height="24" style="border-radius: 50%; vertical-align: middle; margin-right: 8px;">
+        <a href="https://github.com/kornia/kornia"><strong>kornia</strong></a>
       </td>
       <td style="background: #161B22; padding: 15px; border-bottom: 1px solid #30363D;">
-        <a href="https://github.com/scikit-image/scikit-image/pull/8302">#8302</a> — Validate bandwidth in gabor_kernel
+        <a href="https://github.com/kornia/kornia/pull/4055">#4055</a> — fix(color): validate chroma plane height in yuv422...
       </td>
       <td align="center" style="background: #161B22; padding: 15px; border-bottom: 1px solid #30363D; ">
-        <img src="https://img.shields.io/badge/OPEN-10B981?style=for-the-badge&logoColor=white&labelColor=10B981" alt="Open">
+        <img src="https://img.shields.io/badge/MERGED-8B5CF6?style=for-the-badge&logoColor=white&labelColor=8B5CF6" alt="Merged">
       </td>
     </tr>
     <tr>
       <td align="center" style="background: #0D1117; padding: 15px; border-bottom: 1px solid #30363D; ">
-        <img src="https://github.com/kornia.png" width="24" height="24" style="border-radius: 50%; vertical-align: middle; margin-right: 8px;">
-        <a href="https://github.com/kornia/kornia"><strong>kornia</strong></a>
+        <img src="https://github.com/scikit-image.png" width="24" height="24" style="border-radius: 50%; vertical-align: middle; margin-right: 8px;">
+        <a href="https://github.com/scikit-image/scikit-image"><strong>scikit-image</strong></a>
       </td>
       <td style="background: #0D1117; padding: 15px; border-bottom: 1px solid #30363D;">
-        <a href="https://github.com/kornia/kornia/pull/4055">#4055</a> — fix(color): validate chroma plane height in yuv422...
+        <a href="https://github.com/scikit-image/scikit-image/pull/8302">#8302</a> — Validate bandwidth in gabor_kernel
       </td>
       <td align="center" style="background: #0D1117; padding: 15px; border-bottom: 1px solid #30363D; ">
         <img src="https://img.shields.io/badge/OPEN-10B981?style=for-the-badge&logoColor=white&labelColor=10B981" alt="Open">
