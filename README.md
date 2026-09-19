@@ -131,7 +131,7 @@ My daily practice ground — **240+ commits** from fundamentals to DSA.
         <a href="https://github.com/kornia/kornia/pull/4639">#4639</a> — docs: qualify ambiguous pixi install/build-docs ta...
       </td>
       <td align="center" style="background: #161B22; padding: 15px; border-bottom: 1px solid #30363D; ">
-        <img src="https://img.shields.io/badge/OPEN-10B981?style=for-the-badge&logoColor=white&labelColor=10B981" alt="Open">
+        <img src="https://img.shields.io/badge/MERGED-8B5CF6?style=for-the-badge&logoColor=white&labelColor=8B5CF6" alt="Merged">
       </td>
     </tr>
     <tr>
