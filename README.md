@@ -124,11 +124,11 @@ My daily practice ground — **240+ commits** from fundamentals to DSA.
   <tbody>
     <tr>
       <td align="center" style="background: #161B22; padding: 15px; border-bottom: 1px solid #30363D; ">
-        <img src="https://github.com/python.png" width="24" height="24" style="border-radius: 50%; vertical-align: middle; margin-right: 8px;">
-        <a href="https://github.com/python/cpython"><strong>cpython</strong></a>
+        <img src="https://github.com/kornia.png" width="24" height="24" style="border-radius: 50%; vertical-align: middle; margin-right: 8px;">
+        <a href="https://github.com/kornia/kornia"><strong>kornia</strong></a>
       </td>
       <td style="background: #161B22; padding: 15px; border-bottom: 1px solid #30363D;">
-        <a href="https://github.com/python/cpython/pull/158369">#158369</a> — gh-158364: Don't report other interpreters' thread...
+        <a href="https://github.com/kornia/kornia/pull/5119">#5119</a> — fix(augmentation): dispatch IntensityAugmentationB...
       </td>
       <td align="center" style="background: #161B22; padding: 15px; border-bottom: 1px solid #30363D; ">
         <img src="https://img.shields.io/badge/MERGED-8B5CF6?style=for-the-badge&logoColor=white&labelColor=8B5CF6" alt="Merged">
@@ -136,14 +136,14 @@ My daily practice ground — **240+ commits** from fundamentals to DSA.
     </tr>
     <tr>
       <td align="center" style="background: #0D1117; padding: 15px; border-bottom: 1px solid #30363D; ">
-        <img src="https://github.com/kornia.png" width="24" height="24" style="border-radius: 50%; vertical-align: middle; margin-right: 8px;">
-        <a href="https://github.com/kornia/kornia"><strong>kornia</strong></a>
+        <img src="https://github.com/python.png" width="24" height="24" style="border-radius: 50%; vertical-align: middle; margin-right: 8px;">
+        <a href="https://github.com/python/cpython"><strong>cpython</strong></a>
       </td>
       <td style="background: #0D1117; padding: 15px; border-bottom: 1px solid #30363D;">
-        <a href="https://github.com/kornia/kornia/pull/5119">#5119</a> — fix(augmentation): dispatch IntensityAugmentationB...
+        <a href="https://github.com/python/cpython/pull/158369">#158369</a> — gh-158364: Don't report other interpreters' thread...
       </td>
       <td align="center" style="background: #0D1117; padding: 15px; border-bottom: 1px solid #30363D; ">
-        <img src="https://img.shields.io/badge/OPEN-10B981?style=for-the-badge&logoColor=white&labelColor=10B981" alt="Open">
+        <img src="https://img.shields.io/badge/MERGED-8B5CF6?style=for-the-badge&logoColor=white&labelColor=8B5CF6" alt="Merged">
       </td>
     </tr>
     <tr>
