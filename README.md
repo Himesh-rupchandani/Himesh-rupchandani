@@ -128,7 +128,7 @@ My daily practice ground — **240+ commits** from fundamentals to DSA.
         <a href="https://github.com/microsoft/winget-pkgs"><strong>winget-pkgs</strong></a>
       </td>
       <td style="background: #161B22; padding: 15px; border-bottom: 1px solid #30363D;">
-        <a href="https://github.com/microsoft/winget-pkgs/pull/446427">#446427</a> — ReleaseNotes: Microsoft.PowerBIReportServer versio...
+        <a href="https://github.com/microsoft/winget-pkgs/pull/445000">#445000</a> — Update: REALiX.HWiNFO version 8.52 InstallerUrl to...
       </td>
       <td align="center" style="background: #161B22; padding: 15px; border-bottom: 1px solid #30363D; ">
         <img src="https://img.shields.io/badge/MERGED-8B5CF6?style=for-the-badge&logoColor=white&labelColor=8B5CF6" alt="Merged">
@@ -136,23 +136,23 @@ My daily practice ground — **240+ commits** from fundamentals to DSA.
     </tr>
     <tr>
       <td align="center" style="background: #0D1117; padding: 15px; border-bottom: 1px solid #30363D; ">
-        <img src="https://github.com/python.png" width="24" height="24" style="border-radius: 50%; vertical-align: middle; margin-right: 8px;">
-        <a href="https://github.com/python/cpython"><strong>cpython</strong></a>
+        <img src="https://github.com/microsoft.png" width="24" height="24" style="border-radius: 50%; vertical-align: middle; margin-right: 8px;">
+        <a href="https://github.com/microsoft/winget-pkgs"><strong>winget-pkgs</strong></a>
       </td>
       <td style="background: #0D1117; padding: 15px; border-bottom: 1px solid #30363D;">
-        <a href="https://github.com/python/cpython/pull/156736">#156736</a> — gh-156725: document O(N) behavior of PyCode_Addr2L...
+        <a href="https://github.com/microsoft/winget-pkgs/pull/446427">#446427</a> — ReleaseNotes: Microsoft.PowerBIReportServer versio...
       </td>
       <td align="center" style="background: #0D1117; padding: 15px; border-bottom: 1px solid #30363D; ">
-        <img src="https://img.shields.io/badge/OPEN-10B981?style=for-the-badge&logoColor=white&labelColor=10B981" alt="Open">
+        <img src="https://img.shields.io/badge/MERGED-8B5CF6?style=for-the-badge&logoColor=white&labelColor=8B5CF6" alt="Merged">
       </td>
     </tr>
     <tr>
       <td align="center" style="background: #161B22; padding: 15px; border-bottom: 1px solid #30363D; ">
-        <img src="https://github.com/microsoft.png" width="24" height="24" style="border-radius: 50%; vertical-align: middle; margin-right: 8px;">
-        <a href="https://github.com/microsoft/winget-pkgs"><strong>winget-pkgs</strong></a>
+        <img src="https://github.com/python.png" width="24" height="24" style="border-radius: 50%; vertical-align: middle; margin-right: 8px;">
+        <a href="https://github.com/python/cpython"><strong>cpython</strong></a>
       </td>
       <td style="background: #161B22; padding: 15px; border-bottom: 1px solid #30363D;">
-        <a href="https://github.com/microsoft/winget-pkgs/pull/445000">#445000</a> — Update: REALiX.HWiNFO version 8.52 InstallerUrl to...
+        <a href="https://github.com/python/cpython/pull/156736">#156736</a> — gh-156725: document O(N) behavior of PyCode_Addr2L...
       </td>
       <td align="center" style="background: #161B22; padding: 15px; border-bottom: 1px solid #30363D; ">
         <img src="https://img.shields.io/badge/OPEN-10B981?style=for-the-badge&logoColor=white&labelColor=10B981" alt="Open">
