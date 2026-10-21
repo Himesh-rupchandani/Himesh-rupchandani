@@ -124,30 +124,6 @@ My daily practice ground — **240+ commits** from fundamentals to DSA.
   <tbody>
     <tr>
       <td align="center" style="background: #161B22; padding: 15px; border-bottom: 1px solid #30363D; ">
-        <img src="https://github.com/microsoft.png" width="24" height="24" style="border-radius: 50%; vertical-align: middle; margin-right: 8px;">
-        <a href="https://github.com/microsoft/winget-pkgs"><strong>winget-pkgs</strong></a>
-      </td>
-      <td style="background: #161B22; padding: 15px; border-bottom: 1px solid #30363D;">
-        <a href="https://github.com/microsoft/winget-pkgs/pull/445000">#445000</a> — Update: REALiX.HWiNFO version 8.52 InstallerUrl to...
-      </td>
-      <td align="center" style="background: #161B22; padding: 15px; border-bottom: 1px solid #30363D; ">
-        <img src="https://img.shields.io/badge/MERGED-8B5CF6?style=for-the-badge&logoColor=white&labelColor=8B5CF6" alt="Merged">
-      </td>
-    </tr>
-    <tr>
-      <td align="center" style="background: #0D1117; padding: 15px; border-bottom: 1px solid #30363D; ">
-        <img src="https://github.com/microsoft.png" width="24" height="24" style="border-radius: 50%; vertical-align: middle; margin-right: 8px;">
-        <a href="https://github.com/microsoft/winget-pkgs"><strong>winget-pkgs</strong></a>
-      </td>
-      <td style="background: #0D1117; padding: 15px; border-bottom: 1px solid #30363D;">
-        <a href="https://github.com/microsoft/winget-pkgs/pull/446427">#446427</a> — ReleaseNotes: Microsoft.PowerBIReportServer versio...
-      </td>
-      <td align="center" style="background: #0D1117; padding: 15px; border-bottom: 1px solid #30363D; ">
-        <img src="https://img.shields.io/badge/MERGED-8B5CF6?style=for-the-badge&logoColor=white&labelColor=8B5CF6" alt="Merged">
-      </td>
-    </tr>
-    <tr>
-      <td align="center" style="background: #161B22; padding: 15px; border-bottom: 1px solid #30363D; ">
         <img src="https://github.com/python.png" width="24" height="24" style="border-radius: 50%; vertical-align: middle; margin-right: 8px;">
         <a href="https://github.com/python/cpython"><strong>cpython</strong></a>
       </td>
@@ -156,6 +132,30 @@ My daily practice ground — **240+ commits** from fundamentals to DSA.
       </td>
       <td align="center" style="background: #161B22; padding: 15px; border-bottom: 1px solid #30363D; ">
         <img src="https://img.shields.io/badge/OPEN-10B981?style=for-the-badge&logoColor=white&labelColor=10B981" alt="Open">
+      </td>
+    </tr>
+    <tr>
+      <td align="center" style="background: #0D1117; padding: 15px; border-bottom: 1px solid #30363D; ">
+        <img src="https://github.com/microsoft.png" width="24" height="24" style="border-radius: 50%; vertical-align: middle; margin-right: 8px;">
+        <a href="https://github.com/microsoft/winget-pkgs"><strong>winget-pkgs</strong></a>
+      </td>
+      <td style="background: #0D1117; padding: 15px; border-bottom: 1px solid #30363D;">
+        <a href="https://github.com/microsoft/winget-pkgs/pull/445000">#445000</a> — Update: REALiX.HWiNFO version 8.52 InstallerUrl to...
+      </td>
+      <td align="center" style="background: #0D1117; padding: 15px; border-bottom: 1px solid #30363D; ">
+        <img src="https://img.shields.io/badge/MERGED-8B5CF6?style=for-the-badge&logoColor=white&labelColor=8B5CF6" alt="Merged">
+      </td>
+    </tr>
+    <tr>
+      <td align="center" style="background: #161B22; padding: 15px; border-bottom: 1px solid #30363D; ">
+        <img src="https://github.com/microsoft.png" width="24" height="24" style="border-radius: 50%; vertical-align: middle; margin-right: 8px;">
+        <a href="https://github.com/microsoft/winget-pkgs"><strong>winget-pkgs</strong></a>
+      </td>
+      <td style="background: #161B22; padding: 15px; border-bottom: 1px solid #30363D;">
+        <a href="https://github.com/microsoft/winget-pkgs/pull/446427">#446427</a> — ReleaseNotes: Microsoft.PowerBIReportServer versio...
+      </td>
+      <td align="center" style="background: #161B22; padding: 15px; border-bottom: 1px solid #30363D; ">
+        <img src="https://img.shields.io/badge/MERGED-8B5CF6?style=for-the-badge&logoColor=white&labelColor=8B5CF6" alt="Merged">
       </td>
     </tr>
     <tr>
