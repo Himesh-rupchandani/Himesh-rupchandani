@@ -263,7 +263,11 @@ reach me:   rupchandanihimesh69@gmail.com
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Chart%20Increasing.png" alt="Activity" width="30"/> &nbsp; Contribution Activity
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Himesh-rupchandani&bg_color=0D1117&color=C9D1D9&line=8B5CF6&point=C4B5FD&area=true&area_color=7C3AED&hide_border=true&custom_title=Himesh%20Rupchandani%27s%20Coding%20Journey" alt="Contribution Graph" width="100%">
+<a href="https://github.com/Himesh-rupchandani">
+  <img src="https://raw.githubusercontent.com/Himesh-rupchandani/Himesh-rupchandani/main/assets/activity-graph.svg" alt="Himesh Rupchandani's Coding Journey — daily GitHub contributions over the last 31 days" width="100%">
+</a>
+
+> 🔄 *Self-rendered from the GitHub GraphQL API by [`activity-graph.yml`](.github/workflows/activity-graph.yml) — refreshed daily, no third-party widget host.*
 
 ---
 

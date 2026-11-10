@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" role="img" aria-labelledby="title desc">
+  <title id="title">Himesh-rupchandani&apos;s Coding Journey</title>
+  <desc id="desc">Line chart of daily GitHub contributions for Himesh-rupchandani over the last 31 days. 115 contributions in the last 31 days  ·  28 active days  ·  1,068 in the past year</desc>
+  <defs>
+    <linearGradient id="area" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.55" />
+      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0.02" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="300" rx="10" fill="#0D1117" />
+
+  <text x="62" y="44" fill="#C9D1D9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="600">Himesh-rupchandani&apos;s Coding Journey</text>
+  <text x="62" y="66" fill="#8B949E" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12">115 contributions in the last 31 days  ·  28 active days  ·  1,068 in the past year</text>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif">
+    <line x1="62" y1="248" x2="970" y2="248" stroke="#30363D" stroke-width="1" stroke-dasharray="3 6" />
+    <text x="50" y="252" fill="#8B949E" font-size="11" text-anchor="end">0</text>
+    <line x1="62" y1="207.5" x2="970" y2="207.5" stroke="#30363D" stroke-width="1" stroke-dasharray="3 6" />
+    <text x="50" y="211.5" fill="#8B949E" font-size="11" text-anchor="end">5</text>
+    <line x1="62" y1="167" x2="970" y2="167" stroke="#30363D" stroke-width="1" stroke-dasharray="3 6" />
+    <text x="50" y="171" fill="#8B949E" font-size="11" text-anchor="end">10</text>
+    <line x1="62" y1="126.5" x2="970" y2="126.5" stroke="#30363D" stroke-width="1" stroke-dasharray="3 6" />
+    <text x="50" y="130.5" fill="#8B949E" font-size="11" text-anchor="end">15</text>
+    <line x1="62" y1="86" x2="970" y2="86" stroke="#30363D" stroke-width="1" stroke-dasharray="3 6" />
+    <text x="50" y="90" fill="#8B949E" font-size="11" text-anchor="end">20</text>
+  </g>
+
+  <path d="M 62 239.9 C 72.09 237.2, 82.18 231.8, 92.27 231.8 C 102.36 231.8, 112.44 231.8, 122.53 231.8 C 132.62 231.8, 142.71 226.4, 152.8 223.7 C 162.89 221, 172.98 215.6, 183.07 215.6 C 193.16 215.6, 203.24 239.9, 213.33 239.9 C 223.42 239.9, 233.51 239.9, 243.6 239.9 C 253.69 239.9, 263.78 215.6, 273.87 215.6 C 283.96 215.6, 294.04 239.9, 304.13 239.9 C 314.22 239.9, 324.31 238.55, 334.4 231.8 C 344.49 225.05, 354.58 206.15, 364.67 199.4 C 374.76 192.65, 384.84 191.3, 394.93 191.3 C 405.02 191.3, 415.11 196.7, 425.2 199.4 C 435.29 202.1, 445.38 200.75, 455.47 207.5 C 465.56 214.25, 475.64 239.9, 485.73 239.9 C 495.82 239.9, 505.91 239.9, 516 239.9 C 526.09 239.9, 536.18 239.9, 546.27 239.9 C 556.36 239.9, 566.44 102.2, 576.53 102.2 C 586.62 102.2, 596.71 248, 606.8 248 C 616.89 248, 626.98 199.4, 637.07 199.4 C 647.16 199.4, 657.24 215.6, 667.33 223.7 C 677.42 231.8, 687.51 248, 697.6 248 C 707.69 248, 717.78 225.05, 727.87 215.6 C 737.96 206.15, 748.04 191.3, 758.13 191.3 C 768.22 191.3, 778.31 191.3, 788.4 191.3 C 798.49 191.3, 808.58 167, 818.67 167 C 828.76 167, 838.84 211.55, 848.93 223.7 C 859.02 235.85, 869.11 239.9, 879.2 239.9 C 889.29 239.9, 899.38 199.4, 909.47 199.4 C 919.56 199.4, 929.64 223.7, 939.73 231.8 C 949.82 239.9, 959.91 242.6, 970 248 L 970 248 L 62 248 Z" fill="url(#area)" />
+  <path d="M 62 239.9 C 72.09 237.2, 82.18 231.8, 92.27 231.8 C 102.36 231.8, 112.44 231.8, 122.53 231.8 C 132.62 231.8, 142.71 226.4, 152.8 223.7 C 162.89 221, 172.98 215.6, 183.07 215.6 C 193.16 215.6, 203.24 239.9, 213.33 239.9 C 223.42 239.9, 233.51 239.9, 243.6 239.9 C 253.69 239.9, 263.78 215.6, 273.87 215.6 C 283.96 215.6, 294.04 239.9, 304.13 239.9 C 314.22 239.9, 324.31 238.55, 334.4 231.8 C 344.49 225.05, 354.58 206.15, 364.67 199.4 C 374.76 192.65, 384.84 191.3, 394.93 191.3 C 405.02 191.3, 415.11 196.7, 425.2 199.4 C 435.29 202.1, 445.38 200.75, 455.47 207.5 C 465.56 214.25, 475.64 239.9, 485.73 239.9 C 495.82 239.9, 505.91 239.9, 516 239.9 C 526.09 239.9, 536.18 239.9, 546.27 239.9 C 556.36 239.9, 566.44 102.2, 576.53 102.2 C 586.62 102.2, 596.71 248, 606.8 248 C 616.89 248, 626.98 199.4, 637.07 199.4 C 647.16 199.4, 657.24 215.6, 667.33 223.7 C 677.42 231.8, 687.51 248, 697.6 248 C 707.69 248, 717.78 225.05, 727.87 215.6 C 737.96 206.15, 748.04 191.3, 758.13 191.3 C 768.22 191.3, 778.31 191.3, 788.4 191.3 C 798.49 191.3, 808.58 167, 818.67 167 C 828.76 167, 838.84 211.55, 848.93 223.7 C 859.02 235.85, 869.11 239.9, 879.2 239.9 C 889.29 239.9, 899.38 199.4, 909.47 199.4 C 919.56 199.4, 929.64 223.7, 939.73 231.8 C 949.82 239.9, 959.91 242.6, 970 248" fill="none" stroke="#8B5CF6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+
+  <g>
+    <circle cx="62" cy="239.9" r="3.1" fill="#C4B5FD" />
+    <circle cx="92.27" cy="231.8" r="3.1" fill="#C4B5FD" />
+    <circle cx="122.53" cy="231.8" r="3.1" fill="#C4B5FD" />
+    <circle cx="152.8" cy="223.7" r="3.1" fill="#C4B5FD" />
+    <circle cx="183.07" cy="215.6" r="3.1" fill="#C4B5FD" />
+    <circle cx="213.33" cy="239.9" r="3.1" fill="#C4B5FD" />
+    <circle cx="243.6" cy="239.9" r="3.1" fill="#C4B5FD" />
+    <circle cx="273.87" cy="215.6" r="3.1" fill="#C4B5FD" />
+    <circle cx="304.13" cy="239.9" r="3.1" fill="#C4B5FD" />
+    <circle cx="334.4" cy="231.8" r="3.1" fill="#C4B5FD" />
+    <circle cx="364.67" cy="199.4" r="3.1" fill="#C4B5FD" />
+    <circle cx="394.93" cy="191.3" r="3.1" fill="#C4B5FD" />
+    <circle cx="425.2" cy="199.4" r="3.1" fill="#C4B5FD" />
+    <circle cx="455.47" cy="207.5" r="3.1" fill="#C4B5FD" />
+    <circle cx="485.73" cy="239.9" r="3.1" fill="#C4B5FD" />
+    <circle cx="516" cy="239.9" r="3.1" fill="#C4B5FD" />
+    <circle cx="546.27" cy="239.9" r="3.1" fill="#C4B5FD" />
+    <circle cx="576.53" cy="102.2" r="3.1" fill="#C4B5FD" />
+    <circle cx="606.8" cy="248" r="2.2" fill="#C4B5FD" fill-opacity="0.28" />
+    <circle cx="637.07" cy="199.4" r="3.1" fill="#C4B5FD" />
+    <circle cx="667.33" cy="223.7" r="3.1" fill="#C4B5FD" />
+    <circle cx="697.6" cy="248" r="2.2" fill="#C4B5FD" fill-opacity="0.28" />
+    <circle cx="727.87" cy="215.6" r="3.1" fill="#C4B5FD" />
+    <circle cx="758.13" cy="191.3" r="3.1" fill="#C4B5FD" />
+    <circle cx="788.4" cy="191.3" r="3.1" fill="#C4B5FD" />
+    <circle cx="818.67" cy="167" r="3.1" fill="#C4B5FD" />
+    <circle cx="848.93" cy="223.7" r="3.1" fill="#C4B5FD" />
+    <circle cx="879.2" cy="239.9" r="3.1" fill="#C4B5FD" />
+    <circle cx="909.47" cy="199.4" r="3.1" fill="#C4B5FD" />
+    <circle cx="939.73" cy="231.8" r="3.1" fill="#C4B5FD" />
+    <circle cx="970" cy="248" r="2.2" fill="#C4B5FD" fill-opacity="0.28" />
+  </g>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif">
+    <text x="62" y="274" fill="#8B949E" font-size="11" text-anchor="middle">Oct 11</text>
+    <text x="213.33" y="274" fill="#8B949E" font-size="11" text-anchor="middle">Oct 16</text>
+    <text x="364.67" y="274" fill="#8B949E" font-size="11" text-anchor="middle">Oct 21</text>
+    <text x="516" y="274" fill="#8B949E" font-size="11" text-anchor="middle">Oct 26</text>
+    <text x="667.33" y="274" fill="#8B949E" font-size="11" text-anchor="middle">Oct 31</text>
+    <text x="818.67" y="274" fill="#8B949E" font-size="11" text-anchor="middle">Nov 5</text>
+    <text x="970" y="274" fill="#8B949E" font-size="11" text-anchor="middle">Nov 10</text>
+  </g>
+</svg>
