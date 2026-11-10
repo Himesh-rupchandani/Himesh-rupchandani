@@ -1,0 +1,52 @@
+name: Update Contribution Activity Graph
+
+on:
+  schedule:
+    # Offset from the 00:00 jobs so two workflows never commit to main at once.
+    - cron: "23 0 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/activity-graph.mjs"
+      - ".github/workflows/activity-graph.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: activity-graph
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Render activity graph
+        run: node scripts/activity-graph.mjs assets/activity-graph.svg
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USER: Himesh-rupchandani
+
+      - name: Commit if changed
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add assets/activity-graph.svg
+          if git diff --staged --quiet; then
+            echo "Activity graph is already up to date."
+            exit 0
+          fi
+          git commit -m "chore: refresh contribution activity graph [skip ci]"
+          git pull --rebase --autostash origin main
+          git push
